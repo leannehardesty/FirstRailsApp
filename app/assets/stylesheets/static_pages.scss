@@ -12,20 +12,46 @@ h4 {
 }
 
 h1 {
-		color: magenta;
+		color: #0063cc;
+		font-family: Iowan Old Style;
+		font-weight: bold;
 		text-align: center;
-		padding-top: 30px;
+		padding-top: 50px;
+		font-size: 600%;
+		
 	}
 
+h3 {
+		color: #0063cc;
+		font-family: Iowan Old Style;
+		text-align: center;
+		 
+		 
+	}
 
+h4 {
+		color: #0063cc;
+		font-family: Iowan Old Style;
+		text-align: center;
+		font-style: italic;
+		 
+	}
 
+p  {
+		color: #0063cc;
+		font-family: Iowan Old Style;
+		text-align: center;
+		
+		 
+	}
 
 
 .site-footer, .page-wrap:after {
   height: 142px; 
 }
 .site-footer {
-  background: pink;
+  background: #ffe5cc;
+  text-align: center;
 }
 
 
@@ -47,3 +73,35 @@ clear: left;
 padding-left: 2%;
 
 }
+
+
+#headerarea{
+/*Have the background cover the entire div section*/
+	background: rgba( 	255, 229, 204, 0.9 );
+
+}
+
+#contact{
+    background-image: url("VintageBicycle_mod3.jpg");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+    /* padding:100px; */
+    padding-top: 20px;
+    height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
