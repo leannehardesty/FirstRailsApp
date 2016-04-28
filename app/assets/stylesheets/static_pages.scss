@@ -41,7 +41,66 @@ p  {
 		color: #0063cc;
 		font-family: Iowan Old Style;
 		text-align: center;
+		 
+	}
+
+
+.newprodlink p {
+	padding-left: 15px;
+	font-size: 100%;
+	text-align: left;
+	 
+
+}
+
+.line p {
+	padding-left: 15px;
+	font-size: 100%;
+	text-align: left;
+	 
+
+}
+
+.showbackeditlink p {
+	padding-left: 15px;
+	font-size: 100%;
+	text-align: left;
+	color: #0063cc;
+
+}
+
+.field {
+	padding-left: 15px;
+	
+}
+
+.actions {
+	padding-left: 15px;
+	
+}
+
+#notice{
+	text-align: left;
+	padding-left: 15px;
+
+}
+
+
+th, td {
+    padding: 15px;
+    text-align: left;
+	}
+
+tr:nth-child(even)  {	
+		padding: 8px;
+		border-bottom: 1px solid #ddd;
+		background-color: #f2f2f2;
 		
+	}
+	
+
+table  {
+		width:100%;
 		 
 	}
 
@@ -49,6 +108,7 @@ p  {
 .site-footer, .page-wrap:after {
   height: 142px; 
 }
+
 .site-footer {
   background: #ffe5cc;
   text-align: center;
