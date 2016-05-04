@@ -15817,3 +15817,5 @@ Started GET "/assets/VintageBicycle_mod3.jpg" for ::1 at 2016-05-03 20:12:25 -07
 
 
 Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-03 20:12:25 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
