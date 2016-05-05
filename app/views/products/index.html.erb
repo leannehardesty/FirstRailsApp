@@ -2,7 +2,7 @@
 
 <h1>List Products</h1>
 
-
+<!--
 <table>
   <thead>
     <tr>
@@ -28,6 +28,7 @@
     <% end %>
   </tbody>
 </table>
+-->
 
 <div class="container-fluid">
   <div class="row">
@@ -39,6 +40,8 @@
            <p><%= product.description %></p>
            <div class="produnderscore"> </div><br>
            <strong>$ 42</strong>
+           <div class="showeditdestroy"> <%= link_to 'Show', product %>  |  <%= link_to 'Edit', edit_product_path(product) %> | <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %> </div>
+
          </div><!-- /col -->
       </div>
     <% end %>
@@ -50,7 +53,8 @@
 
 <div class="newprodlink">
   <p>
-    <%= link_to 'Create New Product', new_product_path %>
+     <br>
+    <%= link_to 'Create New Product', new_product_path %> 
   </p>
 </div>
 
