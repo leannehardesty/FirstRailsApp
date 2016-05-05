@@ -16,7 +16,7 @@ h1 {
 		font-family: Iowan Old Style;
 		font-weight: bold;
 		text-align: center;
-		padding-top: 50px;
+		padding-top: 70px;
 		font-size: 500%;
 		
 	}
@@ -32,12 +32,14 @@ h2 {
 	}
 
 h3 {
-		color: #0063cc;
+		color: #a66c3f;
 		font-family: Iowan Old Style;
 		text-align: center;
 		 
 		 
 	}
+
+	 
 
 h4 {
 		color: #0063cc;
@@ -166,24 +168,41 @@ table  {
 
 
 .navbar-nav {
-	 
 	text-transform: uppercase;
-	color: pink;
+	color: yellow;
 	margin-right: 3%;
 	font-size: 20px;
 
 }
 
 .navbar-inverse .navbar-nav>li>a{
-clear: left;
+   clear: left;
+   color: #ffe5cc;
+
 
 }
 
 .navbar-right {
-padding-left: 2%;
+   padding-left: 2%;
+ 
 
 }
 
+.projectName {
+	text-transform: uppercase;
+ 
+
+}
+
+.projectName a {
+	color: #ffe5cc;
+	 
+	margin-left: 7%;
+	font-size: 20px;
+	list-style-type: none;
+	padding-left: 1%; 
+	margin-bottom: 0;
+}
 
 #headerarea{
 /*Have the background cover the entire div section*/
@@ -197,7 +216,7 @@ padding-left: 2%;
 
 .my-image {
 	height: 1500px;
-	width: 2700px;
+	width: 2900px;
 
 
 }

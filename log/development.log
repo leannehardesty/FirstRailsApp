@@ -20655,3 +20655,2481 @@ Processing by ProductsController#index as HTML
   [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
   Rendered products/index.html.erb within layouts/application (7.0ms)
 Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-05-05 11:11:59 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 235ms (Views: 229.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 11:12:03 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-05-05 11:12:09 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.6ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (68.9ms)
+Completed 200 OK in 101ms (Views: 99.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/CreamBike-b08d0973318e77f12eea9439942844e2ba0f3ecea930cf275be869759c79e6ae.jpg" for ::1 at 2016-05-05 11:12:09 -0700
+
+
+Started GET "/assets/RaceBike-dfbe4c2713fc257d59d38b65d5832f09f4149fe77f5707e169f9993f24137834.jpg" for ::1 at 2016-05-05 11:12:10 -0700
+
+
+Started GET "/assets/GreenBike-1b0020dfb52abffee7343ec453b5b1b6e1187a4d83f7cd2b0229fc01d878174d.jpg" for ::1 at 2016-05-05 11:12:10 -0700
+
+
+Started GET "/assets/CoolBike-3a2feb75ed87e7c26ba42d0db1619334525fbce853446ef46fd6cd574693b1f1.jpg" for ::1 at 2016-05-05 11:12:10 -0700
+
+
+Started GET "/assets/VintageBicycle-507e41f128045deb3bd34ef5bda42ee851a91884fe03cb25a7aed7545a02f82c.jpg" for ::1 at 2016-05-05 11:12:10 -0700
+
+
+Started GET "/assets/BWBike-e2e618c3b6dcf431d17c9c7b7566b6c8cc62f86dc73b90019e637c6ad2ecfc79.jpg" for ::1 at 2016-05-05 11:12:10 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 11:12:17 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 34ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 11:12:20 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-05-05 11:12:22 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products" for ::1 at 2016-05-05 11:12:54 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/static_pages.self-1e5e67deb832a2e2773915aaa04656cf6706c320dc15b5c453fed71ebd9eea09.css?body=1" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/CoolBike-3a2feb75ed87e7c26ba42d0db1619334525fbce853446ef46fd6cd574693b1f1.jpg" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/CreamBike-b08d0973318e77f12eea9439942844e2ba0f3ecea930cf275be869759c79e6ae.jpg" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/VintageBicycle-507e41f128045deb3bd34ef5bda42ee851a91884fe03cb25a7aed7545a02f82c.jpg" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/RaceBike-dfbe4c2713fc257d59d38b65d5832f09f4149fe77f5707e169f9993f24137834.jpg" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/GreenBike-1b0020dfb52abffee7343ec453b5b1b6e1187a4d83f7cd2b0229fc01d878174d.jpg" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/BWBike-e2e618c3b6dcf431d17c9c7b7566b6c8cc62f86dc73b90019e637c6ad2ecfc79.jpg" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/assets/YellowBike-dda1bc6c1a5bf5f4200090b4d6846db41e59f8e61efc77fae296602e00f41cf2.jpg" for ::1 at 2016-05-05 11:12:54 -0700
+
+
+Started GET "/products" for ::1 at 2016-05-05 11:13:01 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 11:13:03 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 11:13:06 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 11:13:21 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 11:13:21 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 11:13:21 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 11:13:21 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 11:13:21 -0700
+
+
+Started GET "/assets/static_pages.self-1e5e67deb832a2e2773915aaa04656cf6706c320dc15b5c453fed71ebd9eea09.css?body=1" for ::1 at 2016-05-05 11:13:21 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 11:13:21 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:13:21 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:13:21 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 11:13:21 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 11:13:21 -0700
+
+
+Started GET "/products" for ::1 at 2016-05-05 11:13:23 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 11:13:25 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 11:13:26 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 11:13:59 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 11:13:59 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 11:13:59 -0700
+
+
+Started GET "/assets/static_pages.self-1e5e67deb832a2e2773915aaa04656cf6706c320dc15b5c453fed71ebd9eea09.css?body=1" for ::1 at 2016-05-05 11:13:59 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 11:13:59 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 11:13:59 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 11:13:59 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 11:13:59 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:13:59 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:13:59 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 11:13:59 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 11:13:59 -0700
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 11:14:02 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 11:14:28 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 230ms (Views: 230.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-1891abe2a2792fdb52f3578d162ba338fe563aade6ca095ab5d2157ecd9815a6.css?body=1" for ::1 at 2016-05-05 11:14:29 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 11:14:29 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 11:14:29 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 11:14:29 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 11:14:29 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 11:14:29 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 11:14:29 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:14:29 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:14:29 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 11:14:29 -0700
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 11:14:32 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 11:14:32 -0700
+
+
+Started GET "/assets/static_pages.self-1891abe2a2792fdb52f3578d162ba338fe563aade6ca095ab5d2157ecd9815a6.css?body=1" for ::1 at 2016-05-05 11:14:32 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 11:14:32 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 11:14:32 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 11:14:32 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 11:14:32 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 11:14:32 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:14:32 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:14:32 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 11:14:32 -0700
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 11:15:21 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 11:15:21 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 11:15:21 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 11:15:21 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 11:15:21 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 11:15:21 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 11:15:21 -0700
+
+
+Started GET "/assets/static_pages.self-1891abe2a2792fdb52f3578d162ba338fe563aade6ca095ab5d2157ecd9815a6.css?body=1" for ::1 at 2016-05-05 11:15:21 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:15:21 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 11:15:21 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:15:21 -0700
+
+
+Started GET "/products" for ::1 at 2016-05-05 11:15:26 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 11:15:29 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-05-05 11:15:31 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 11:15:33 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-05-05 11:15:36 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 11:15:40 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-05-05 11:15:42 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 11:15:45 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 11:15:46 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 11:16:37 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 131ms (Views: 131.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 11:16:37 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 11:16:37 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 11:16:37 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 11:16:37 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 11:16:37 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 11:16:37 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 11:16:37 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:16:37 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:16:37 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 11:16:37 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 11:16:37 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 11:16:54 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 11:16:54 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 11:16:54 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 11:16:54 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 11:16:54 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 11:16:54 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 11:16:54 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 11:16:54 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:16:54 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 11:16:54 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:16:54 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 11:16:54 -0700
+
+
+Started GET "/products" for ::1 at 2016-05-05 11:17:13 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 40ms (Views: 39.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products" for ::1 at 2016-05-05 11:52:05 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.3ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (118.7ms)
+Completed 200 OK in 247ms (Views: 237.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/GreenBike-1b0020dfb52abffee7343ec453b5b1b6e1187a4d83f7cd2b0229fc01d878174d.jpg" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/BWBike-e2e618c3b6dcf431d17c9c7b7566b6c8cc62f86dc73b90019e637c6ad2ecfc79.jpg" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/CreamBike-b08d0973318e77f12eea9439942844e2ba0f3ecea930cf275be869759c79e6ae.jpg" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/RaceBike-dfbe4c2713fc257d59d38b65d5832f09f4149fe77f5707e169f9993f24137834.jpg" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/VintageBicycle-507e41f128045deb3bd34ef5bda42ee851a91884fe03cb25a7aed7545a02f82c.jpg" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/CoolBike-3a2feb75ed87e7c26ba42d0db1619334525fbce853446ef46fd6cd574693b1f1.jpg" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/assets/YellowBike-dda1bc6c1a5bf5f4200090b4d6846db41e59f8e61efc77fae296602e00f41cf2.jpg" for ::1 at 2016-05-05 11:52:06 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 11:52:09 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 44ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:01:04 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 119ms (Views: 118.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:01:04 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:01:04 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:01:04 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:01:04 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:01:04 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:01:04 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:01:04 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:01:04 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:01:04 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:01:04 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:01:04 -0700
+
+
+Started GET "/products" for ::1 at 2016-05-05 12:01:09 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (52.1ms)
+Completed 200 OK in 82ms (Views: 81.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 12:01:12 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-05-05 12:01:13 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:01:14 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:02:08 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:02:08 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:02:08 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:02:08 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:02:08 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:02:08 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:02:08 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:02:08 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:02:08 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:02:08 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:02:08 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:02:08 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:02:50 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:02:50 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:02:50 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:02:50 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:02:50 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:02:50 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:02:50 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:02:50 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:02:50 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:02:50 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:02:50 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:02:50 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:04:02 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 152ms (Views: 151.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:04:03 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:04:03 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:04:03 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:04:03 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:04:03 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:04:03 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:04:03 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:04:03 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:04:03 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:04:03 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:04:03 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:06:33 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:06:33 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:06:33 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:06:33 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:06:33 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:06:33 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:06:33 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:06:33 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:06:33 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:06:33 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:06:33 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:06:33 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:07:03 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:07:03 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:07:03 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:07:03 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:07:03 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:07:03 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:07:03 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:07:03 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:07:03 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:07:03 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:07:03 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:07:03 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:07:21 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:07:21 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:07:21 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:07:21 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:07:21 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:07:21 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:07:21 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:07:21 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:07:21 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:07:21 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:07:21 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:07:21 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:07:39 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:07:39 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:07:39 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:07:39 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:07:39 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:07:39 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:07:40 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:07:40 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:07:40 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:07:40 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:07:40 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:07:40 -0700
+
+
+Started GET "/products" for ::1 at 2016-05-05 12:07:41 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (68.7ms)
+Completed 200 OK in 164ms (Views: 162.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products" for ::1 at 2016-05-05 12:08:28 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/BWBike-e2e618c3b6dcf431d17c9c7b7566b6c8cc62f86dc73b90019e637c6ad2ecfc79.jpg" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/CreamBike-b08d0973318e77f12eea9439942844e2ba0f3ecea930cf275be869759c79e6ae.jpg" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/GreenBike-1b0020dfb52abffee7343ec453b5b1b6e1187a4d83f7cd2b0229fc01d878174d.jpg" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/RaceBike-dfbe4c2713fc257d59d38b65d5832f09f4149fe77f5707e169f9993f24137834.jpg" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/CoolBike-3a2feb75ed87e7c26ba42d0db1619334525fbce853446ef46fd6cd574693b1f1.jpg" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/VintageBicycle-507e41f128045deb3bd34ef5bda42ee851a91884fe03cb25a7aed7545a02f82c.jpg" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/assets/YellowBike-dda1bc6c1a5bf5f4200090b4d6846db41e59f8e61efc77fae296602e00f41cf2.jpg" for ::1 at 2016-05-05 12:08:28 -0700
+
+
+Started GET "/products" for ::1 at 2016-05-05 12:08:36 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (19.9ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 43ms (Views: 22.2ms | ActiveRecord: 19.9ms)
+
+
+Started GET "/products" for ::1 at 2016-05-05 12:08:41 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:08:42 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 32ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:09:34 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 85ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:09:34 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:09:34 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:09:34 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:09:34 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:09:34 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:09:34 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:09:34 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:09:34 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:09:34 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:09:34 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:09:34 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:10:11 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:10:11 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:10:11 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:10:11 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:10:11 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:10:11 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:10:11 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:10:11 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:10:11 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:10:11 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:10:11 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:10:11 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:10:28 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:10:28 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:10:28 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:10:28 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:10:28 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:10:28 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:10:28 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:10:28 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:10:28 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:10:28 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:10:28 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:10:28 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:10:52 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:10:52 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:10:52 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:10:52 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:10:52 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:10:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:10:52 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:10:52 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:10:52 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:10:52 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:10:52 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:10:52 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:11:08 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:11:08 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:11:08 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:11:08 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:11:08 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:11:08 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:11:08 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:11:08 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:11:08 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:11:08 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:11:08 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:11:08 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:11:19 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:11:19 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:11:19 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:11:19 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:11:19 -0700
+
+
+Started GET "/assets/static_pages.self-ee4d93380ef96aa7692a2e381f91a6af9447a2f3fe8e9168b9b7643330cb8903.css?body=1" for ::1 at 2016-05-05 12:11:19 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:11:19 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:11:19 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:11:19 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:11:19 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:11:19 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:11:19 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:23:20 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 149ms (Views: 148.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-b73db84d8bd8c7d2d66ba33f58ae02b55d967354672ebc2163fd605248fb8c87.css?body=1" for ::1 at 2016-05-05 12:23:20 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:23:20 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:23:20 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:23:20 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:23:20 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:23:20 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:23:20 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:23:20 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:23:20 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:23:20 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:23:20 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:25:01 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 118ms (Views: 117.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-80ad2a1cacb66b8b834dfbeb0d4fe411b4b3af769d5143eb010ae3696af2d942.css?body=1" for ::1 at 2016-05-05 12:25:01 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:25:01 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:25:01 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:25:01 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:25:01 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:25:01 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:25:01 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:25:01 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:25:01 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:25:01 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:25:01 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:25:23 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 88ms (Views: 87.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:25:23 -0700
+
+
+Started GET "/assets/static_pages.self-7fa2cc19b0bd8f156aaefc974de1346acb6e98a7b789262cc352562b27dfbb7c.css?body=1" for ::1 at 2016-05-05 12:25:23 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:25:23 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:25:23 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:25:23 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:25:23 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:25:23 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:25:23 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:25:23 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:25:23 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:25:23 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:25:25 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:25:25 -0700
+
+
+Started GET "/assets/static_pages.self-7fa2cc19b0bd8f156aaefc974de1346acb6e98a7b789262cc352562b27dfbb7c.css?body=1" for ::1 at 2016-05-05 12:25:25 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:25:25 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:25:25 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:25:25 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:25:25 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:25:25 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:25:25 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:25:25 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:25:25 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:25:25 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:26:31 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 85ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:26:31 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:26:31 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:26:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:26:31 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:26:31 -0700
+
+
+Started GET "/assets/static_pages.self-281326e659ee24adf9c09ec945545c61c8fdd0b7f20988a60a3c7f314e14e125.css?body=1" for ::1 at 2016-05-05 12:26:31 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:26:31 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:26:31 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:26:31 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:26:31 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:26:31 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:28:37 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 155ms (Views: 154.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-0827e1c6195230bd976d8e3bff550c24df28f7e3d0622c675fe7cb1ee1076fa2.css?body=1" for ::1 at 2016-05-05 12:28:38 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:28:38 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:28:38 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:28:38 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:28:38 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:28:38 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:28:38 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:28:38 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:28:38 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:28:38 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:28:38 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:28:40 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:28:40 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:28:40 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:28:40 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:28:40 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:28:40 -0700
+
+
+Started GET "/assets/static_pages.self-0827e1c6195230bd976d8e3bff550c24df28f7e3d0622c675fe7cb1ee1076fa2.css?body=1" for ::1 at 2016-05-05 12:28:40 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:28:40 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:28:40 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:28:40 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:28:40 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:28:40 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:29:32 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 72ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:29:32 -0700
+
+
+Started GET "/assets/static_pages.self-2c26eed82e2310587edf46eb2e3daf45630e2544783f01183ed46ba93181de63.css?body=1" for ::1 at 2016-05-05 12:29:32 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:29:32 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:29:32 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:29:32 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:29:32 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:29:32 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:29:32 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:29:32 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:29:32 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:29:32 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:30:14 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 90ms (Views: 89.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-5ac8eabb01a178ece5849df5c0eac0254706361ad6f793f104ac232a5107c374.css?body=1" for ::1 at 2016-05-05 12:30:14 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:30:14 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:30:14 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:30:14 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:30:14 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:30:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:30:14 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:30:14 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:30:14 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:30:14 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:30:14 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:30:47 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 80ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:30:47 -0700
+
+
+Started GET "/assets/static_pages.self-e5e8b7b3d627eb4a806b3c4dda82f481caae819c18553c4781196a3130a2af12.css?body=1" for ::1 at 2016-05-05 12:30:47 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:30:47 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:30:47 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:30:47 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:30:47 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:30:47 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:30:47 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:30:47 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:30:47 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:30:47 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:31:02 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 86ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-2888cd8cdd8819ec4cc5a8dfc4c3a0412d55d8d237d98314a386ba8b182356ce.css?body=1" for ::1 at 2016-05-05 12:31:02 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:31:02 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:31:02 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:31:02 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:31:02 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:31:02 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:31:02 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:31:02 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:31:02 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:31:02 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:31:02 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:31:55 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 233ms (Views: 232.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:31:56 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:31:56 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:31:56 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:31:56 -0700
+
+
+Started GET "/assets/static_pages.self-4171595aa4269ac0e623e7e8801ef36aa3c733348621be15f2749a0cee087336.css?body=1" for ::1 at 2016-05-05 12:31:56 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:31:56 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:31:56 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:31:56 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:31:56 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:31:56 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:31:56 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:32:20 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 114ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:32:20 -0700
+
+
+Started GET "/assets/static_pages.self-d20aa5cd1ff708aaeb341ab0344c1a158e03dced7bae4fc407b1afadfbd33c60.css?body=1" for ::1 at 2016-05-05 12:32:20 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:32:20 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:32:20 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:32:20 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:32:20 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:32:20 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:32:20 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:32:20 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:32:20 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:32:20 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:34:15 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:34:15 -0700
+
+
+Started GET "/assets/static_pages.self-d20aa5cd1ff708aaeb341ab0344c1a158e03dced7bae4fc407b1afadfbd33c60.css?body=1" for ::1 at 2016-05-05 12:34:15 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:34:15 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:34:15 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:34:15 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:34:15 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:34:15 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:34:15 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:34:15 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:34:15 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:34:15 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:34:58 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:34:58 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:34:58 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:34:58 -0700
+
+
+Started GET "/assets/static_pages.self-d20aa5cd1ff708aaeb341ab0344c1a158e03dced7bae4fc407b1afadfbd33c60.css?body=1" for ::1 at 2016-05-05 12:34:58 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:34:58 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:34:58 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:34:58 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:34:58 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:34:58 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:34:58 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:34:58 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:35:57 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:35:57 -0700
+
+
+Started GET "/assets/static_pages.self-d20aa5cd1ff708aaeb341ab0344c1a158e03dced7bae4fc407b1afadfbd33c60.css?body=1" for ::1 at 2016-05-05 12:35:57 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:35:57 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:35:57 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:35:57 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:35:57 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:35:57 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:35:57 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:35:57 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:35:57 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:35:57 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:37:02 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 124ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:37:02 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:37:02 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:37:02 -0700
+
+
+Started GET "/assets/static_pages.self-d20aa5cd1ff708aaeb341ab0344c1a158e03dced7bae4fc407b1afadfbd33c60.css?body=1" for ::1 at 2016-05-05 12:37:02 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:37:02 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:37:02 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:37:02 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:37:02 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:37:02 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:37:02 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:37:02 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:37:34 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-d20aa5cd1ff708aaeb341ab0344c1a158e03dced7bae4fc407b1afadfbd33c60.css?body=1" for ::1 at 2016-05-05 12:37:34 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:37:34 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:37:34 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:37:34 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:37:34 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:37:34 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:37:34 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:37:34 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:37:34 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:37:34 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:37:34 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:39:02 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:39:02 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:39:02 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:39:02 -0700
+
+
+Started GET "/assets/static_pages.self-d20aa5cd1ff708aaeb341ab0344c1a158e03dced7bae4fc407b1afadfbd33c60.css?body=1" for ::1 at 2016-05-05 12:39:02 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:39:02 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:39:02 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:39:02 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:39:02 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:39:02 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:39:02 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:39:02 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:40:24 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-d20aa5cd1ff708aaeb341ab0344c1a158e03dced7bae4fc407b1afadfbd33c60.css?body=1" for ::1 at 2016-05-05 12:40:24 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:40:24 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:40:24 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:40:24 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:40:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:40:24 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:40:24 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:40:24 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:40:24 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:40:24 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:40:24 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:41:05 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 116ms (Views: 115.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:41:06 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:41:06 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:41:06 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:41:06 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:41:06 -0700
+
+
+Started GET "/assets/static_pages.self-d20aa5cd1ff708aaeb341ab0344c1a158e03dced7bae4fc407b1afadfbd33c60.css?body=1" for ::1 at 2016-05-05 12:41:06 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:41:06 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:41:06 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:41:06 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:41:06 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:41:06 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:42:28 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:42:28 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:42:28 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:42:28 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:42:28 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:42:28 -0700
+
+
+Started GET "/assets/static_pages.self-d20aa5cd1ff708aaeb341ab0344c1a158e03dced7bae4fc407b1afadfbd33c60.css?body=1" for ::1 at 2016-05-05 12:42:28 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:42:28 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:42:28 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:42:28 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:42:28 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:42:28 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:43:03 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 163ms (Views: 162.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-db5048d5238fd153655bbfdd8197b4dc4ff740c987311093ec794a97fc91d4dd.css?body=1" for ::1 at 2016-05-05 12:43:04 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:43:04 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:43:04 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:43:04 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:43:04 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:43:04 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:43:04 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:43:04 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:43:04 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:43:04 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:43:04 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:43:51 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:43:51 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:43:51 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:43:51 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:43:51 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:43:51 -0700
+
+
+Started GET "/assets/static_pages.self-db5048d5238fd153655bbfdd8197b4dc4ff740c987311093ec794a97fc91d4dd.css?body=1" for ::1 at 2016-05-05 12:43:51 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:43:51 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:43:51 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:43:51 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:43:51 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:43:51 -0700
+
+
+Started GET "/products" for ::1 at 2016-05-05 12:43:56 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (9.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (68.9ms)
+Completed 200 OK in 164ms (Views: 154.3ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 12:44:07 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:44:09 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:45:30 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:45:30 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:45:30 -0700
+
+
+Started GET "/assets/static_pages.self-db5048d5238fd153655bbfdd8197b4dc4ff740c987311093ec794a97fc91d4dd.css?body=1" for ::1 at 2016-05-05 12:45:30 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:45:30 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:45:30 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:45:30 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:45:31 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:45:31 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:45:31 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:45:31 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:45:31 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:46:20 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 233ms (Views: 232.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-34604f56305cd7d116a81be264d477604b418292e0ae882359b67633d74ee80d.css?body=1" for ::1 at 2016-05-05 12:46:20 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:46:20 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:46:20 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:46:20 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:46:20 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:46:20 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:46:20 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:46:20 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:46:20 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:46:20 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:46:20 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:46:30 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 145ms (Views: 145.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:46:30 -0700
+
+
+Started GET "/assets/static_pages.self-977f848cb87d658c167405c70bb24ff91e357da0aa649b8c69e029dd27d66631.css?body=1" for ::1 at 2016-05-05 12:46:30 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:46:30 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:46:30 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:46:30 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:46:30 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:46:30 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:46:30 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:46:30 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:46:30 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:46:30 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:46:56 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:46:56 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:46:56 -0700
+
+
+Started GET "/assets/static_pages.self-977f848cb87d658c167405c70bb24ff91e357da0aa649b8c69e029dd27d66631.css?body=1" for ::1 at 2016-05-05 12:46:56 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:46:56 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:46:56 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:46:56 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:46:56 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:46:56 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:46:56 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:46:56 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:46:56 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:47:10 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:47:10 -0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:47:10 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:47:11 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:47:11 -0700
+
+
+Started GET "/assets/static_pages.self-977f848cb87d658c167405c70bb24ff91e357da0aa649b8c69e029dd27d66631.css?body=1" for ::1 at 2016-05-05 12:47:11 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:47:11 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:47:11 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:47:11 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:47:11 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:47:11 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:47:11 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:47:25 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:47:25 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:47:25 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:47:25 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:47:25 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:47:25 -0700
+
+
+Started GET "/assets/static_pages.self-977f848cb87d658c167405c70bb24ff91e357da0aa649b8c69e029dd27d66631.css?body=1" for ::1 at 2016-05-05 12:47:25 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:47:25 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:47:25 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:47:25 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:47:25 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:47:25 -0700
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:47:42 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 177ms (Views: 176.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-05 12:47:42 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-05 12:47:42 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-05 12:47:42 -0700
+
+
+Started GET "/assets/static_pages.self-a6cd8cb7d310f5907760c15dcaf93d4f4ccbc92837932226e0d7b400bbf5f7ed.css?body=1" for ::1 at 2016-05-05 12:47:42 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-05 12:47:42 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-05 12:47:42 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-05 12:47:42 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:47:42 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-05 12:47:42 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-05 12:47:42 -0700
+
+
+Started GET "/assets/VintageBicycle_mod3-677c97348f1ad4701807bcc2773f9296ab44ef07f11544e410bc3870baefa5e4.jpg" for ::1 at 2016-05-05 12:47:42 -0700
+
+
+Started GET "/products" for ::1 at 2016-05-05 12:48:01 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (11.8ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (79.9ms)
+Completed 200 OK in 155ms (Views: 143.3ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 12:48:07 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 12:48:10 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 41ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-05-05 12:48:21 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2016-05-05 12:48:25 -0700
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2016-05-05 13:04:18 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 143ms (Views: 138.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-05-05 13:04:22 -0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (13.8ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (94.7ms)
+Completed 200 OK in 138ms (Views: 122.2ms | ActiveRecord: 13.8ms)
