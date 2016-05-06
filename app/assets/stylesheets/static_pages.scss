@@ -183,7 +183,8 @@ table  {
 }
 
 .navbar-right {
-   padding-left: 2%;
+   padding-left: 4%;
+
  
 
 }
@@ -196,13 +197,22 @@ table  {
 
 .projectName a {
 	color: #ffe5cc;
-	 
 	margin-left: 7%;
 	font-size: 20px;
 	list-style-type: none;
 	padding-left: 1%; 
 	margin-bottom: 0;
 }
+
+.projectName li {
+	color: #ffe5cc;
+	margin-left: 7%;
+	font-size: 20px;
+	list-style-type: none;
+	padding-left: 1%; 
+	margin-bottom: 0;
+}
+
 
 #headerarea{
 /*Have the background cover the entire div section*/
