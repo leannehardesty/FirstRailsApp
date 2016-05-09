@@ -28,26 +28,19 @@
     <% end %>
   </tbody>
 </table>
+
+
+****
+
 -->
 
 <div class="container-fluid">
   <div class="row">
-    <% @products.each do |product| %>
-      <div class="col-sm-2 col-md-4">
-         <div class="prodborder">
-           <div class="bikephoto"> <%= image_tag(product.image_url, class: "img-responsive") %> </div>
-           <h2><%= product.name %></h2>
-           <p><%= product.description %></p>
-           <div class="produnderscore"> </div><br>
-           <strong>$<%= product.price %></strong> 
-           <div class="showeditdestroy"> <%= link_to 'Show', product %>  |  <%= link_to 'Edit', edit_product_path(product) %> | <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %> </div>
 
-         </div><!-- /col -->
-      </div>
-    <% end %>
+   <%= render @products %>
+
   </div>
 </div>
-
 
 <br>
 
