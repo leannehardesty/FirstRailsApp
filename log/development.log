@@ -31709,3 +31709,94 @@ Processing by ProductsController#show as HTML
   Rendered products/_product.html.erb (1.2ms)
   Rendered products/show.html.erb within layouts/application (2.7ms)
 Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products/6" for ::1 at 2016-05-08 18:11:26 -0700
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_product.html.erb (1.5ms)
+  Rendered products/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-08 18:11:27 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-08 18:11:27 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-08 18:11:27 -0700
+
+
+Started GET "/assets/static_pages.self-fb64be45bd855a8e7c3dc825cacaff4e87559b15d632a1374e3ad610e6aea4a1.css?body=1" for ::1 at 2016-05-08 18:11:27 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-08 18:11:27 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-08 18:11:27 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-08 18:11:27 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-08 18:11:27 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-08 18:11:27 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-08 18:11:27 -0700
+
+
+Started GET "/assets/VintageBicycle-507e41f128045deb3bd34ef5bda42ee851a91884fe03cb25a7aed7545a02f82c.jpg" for ::1 at 2016-05-08 18:11:27 -0700
+
+
+Started GET "/products/6" for ::1 at 2016-05-09 06:06:23 -0700
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/_product.html.erb (1.5ms)
+  Rendered products/show.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-09 06:06:23 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-09 06:06:23 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-09 06:06:23 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-09 06:06:23 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-09 06:06:23 -0700
+
+
+Started GET "/assets/scaffolds.self-22f227844c176757f4efe85fa2e47cacb395901757271b9341ef54003f533300.css?body=1" for ::1 at 2016-05-09 06:06:23 -0700
+
+
+Started GET "/assets/static_pages.self-fb64be45bd855a8e7c3dc825cacaff4e87559b15d632a1374e3ad610e6aea4a1.css?body=1" for ::1 at 2016-05-09 06:06:23 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-09 06:06:23 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-09 06:06:23 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-09 06:06:23 -0700
+
+
+Started GET "/assets/VintageBicycle-507e41f128045deb3bd34ef5bda42ee851a91884fe03cb25a7aed7545a02f82c.jpg" for ::1 at 2016-05-09 06:06:23 -0700
+
+
+Started GET "/" for ::1 at 2016-05-09 13:19:23 -0700
+Processing by StaticPagesController#landing_page as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered static_pages/landing_page.html.erb within layouts/application (42.9ms)
+Completed 200 OK in 128ms (Views: 127.2ms | ActiveRecord: 0.1ms)
