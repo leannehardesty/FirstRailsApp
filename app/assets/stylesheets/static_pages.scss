@@ -98,6 +98,16 @@ p  {
 
 }
 
+.newborder {
+    border-radius: 25px;
+    border: 2px solid blue;
+    padding: 20px; 
+    width: 300px;
+    height: 450px; 
+    margin-top: 40px;
+    margin-left:  40px;
+}
+
 
 .produnderscore  {
     border-style: none;
@@ -203,8 +213,11 @@ table  {
 .navbar-right {
    padding-left: 4%;
 
- 
+}
 
+
+.searchform {
+	 margin-left: 10px;
 }
 
 .projectName {
