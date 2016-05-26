@@ -2,47 +2,57 @@
 
 <p id="notice"><%= notice %></p>
 
-
-<!-- 
-<div class="field">
-  <strong>Name:</strong>
-  <%= @product.name %>
-</div>
-
-<div class="field">
-  <strong>Description:</strong>
-  <%= @product.description %>
-</div>
-
-<div class="field">
-  <strong>Image url:</strong>
-  <%= @product.image_url %>
-    
-   
-</div>
-<div class="field">
-  <strong>Colour:</strong>
-  <%= @product.colour %>
-</div>
-
-<p>
-  <strong>Price:</strong>
-  <%= @product.price %>
-</p>
-
-******
-
-<h2><%= @product.name %></h2>
-           <p><%= @product.description %></p>
-
--->
-
-
  
+
+
+
+
+
+
+
+<div class="col-sm-12">
+ 
+    <div class="showborder">
+        <div class="field">
+          <strong>Name:</strong>
+          <%= @product.name %>
+        </div>
+
+        <div class="showphoto"> <%= image_tag(@product.image_url, class: "img-responsive") %> </div>
+
+        
+        <div class="field">
+          <strong>Description:</strong>
+          <%= @product.description %>
+        </div>
+
+        <div class="field">
+          <strong>Image url:</strong>
+          <%= @product.image_url %>
+        </div>
+        <div class="field">
+          <strong>Colour:</strong>
+          <%= @product.colour %>
+        </div>
+        <div class="field">
+          <strong>Price:</strong>
+          $<%= @product.price %>
+        </div>
+
+           
+    </div>
+
+</div>
+ 
+
+
+ <!--
 
 <div class="show">
   <%= render @product %>
 </div>
+
+-->
  
 
 
