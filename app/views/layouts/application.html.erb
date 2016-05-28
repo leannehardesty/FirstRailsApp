@@ -12,6 +12,11 @@
 <body>
 
 
+<!-- flash tag notices to display a welcome message when you log in -->
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
+
+
 
 <!--navbar starts here-->
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -34,7 +39,13 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a <%= link_to "Products", products_path %>   </a></li> 
           <li><a <%= link_to "Contacts", static_pages_contact_path %>   </a></li> 
-
+          <li>
+            <% if user_signed_in? %>
+              <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+            <% else %>
+              <%= link_to('Login', new_user_session_path) %>
+            <% end %>
+          </li>
         </ul>
 
       </div> <!-- end nav -->
