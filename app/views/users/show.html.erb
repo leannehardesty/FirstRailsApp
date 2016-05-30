@@ -10,5 +10,24 @@
   <%= @user.last_name %>
 </p>
 
+<p>
+  <strong>Last name:</strong>
+  <%= @user.email %>
+</p>
+
+  <div class="field">
+    
+    <%= @user.first_name %>
+  </div>
+  <div class="field">
+    
+    <%= @user.last_name %>
+  </div>
+
+  <div class="field">
+    
+    <%= @user.email %>
+  </div>
+
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
