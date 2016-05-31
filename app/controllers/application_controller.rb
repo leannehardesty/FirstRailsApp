@@ -5,9 +5,9 @@ class ApplicationController < ActionController::Base
 
     
 
-#rescue_from CanCan::AccessDenied do |exception|
-  #redirect_to main_app.root_url, :alert => exception.message
-#end
-
+	#customize message if a user tries to edit another user for whom they are not authorized
+	rescue_from CanCan::AccessDenied do |exception|
+	  redirect_to main_app.root_url, :alert => exception.message
+	end
   
 end
