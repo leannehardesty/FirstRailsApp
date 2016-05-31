@@ -1,0 +1,43 @@
+
+
+<h1>Display Orders</h1>
+
+<p id="notice"><%= notice %></p>
+
+ 
+
+
+
+<div class="col-sm-12">
+ 
+    <div class="showborder">
+        <div class="field">
+          <strong>Name:</strong>
+          <%= @product.name %>
+        </div>
+
+        <div class="showphoto"> <%= image_tag(@product.image_url, class: "img-responsive") %> </div>
+
+        
+        <div class="field">
+          <strong>Description:</strong>
+          <%= @product.description %>
+        </div>
+
+        <div class="field">
+          <strong>Image url:</strong>
+          <%= @product.image_url %>
+        </div>
+        <div class="field">
+          <strong>Colour:</strong>
+          <%= @product.colour %>
+        </div>
+        <div class="field">
+          <strong>Price:</strong>
+          $<%= @product.price %>
+        </div>
+
+           
+    </div>
+
+</div>
