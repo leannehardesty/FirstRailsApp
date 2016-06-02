@@ -16,6 +16,11 @@ Rails.application.routes.draw do
 
   get 'users/index'
 
+  # get orders_path orders#index
+  # post orders_path orders#create
+  # get order_path orders#show
+  # delete order_path orders#destroy
+
    
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -1,0 +1,16 @@
+
+
+
+<div class="col-sm-12 col-md-4">
+    <div class="prodborder">
+         
+           
+        <p><%= order.user_id %></p>
+        <p><%= order.product_id %></p>
+        <p><%= order.total %></p>
+         
+        
+        <div class="showeditdestroy"> <%= link_to 'Show', order %>  |   Edit  | <%= link_to 'Destroy', order, method: :delete, data: { confirm: 'Are you sure?' } %> </div>
+
+    </div>
+</div>

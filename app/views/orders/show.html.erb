@@ -16,27 +16,23 @@
           <%= @product.name %>
         </div>
 
-        <div class="showphoto"> <%= image_tag(@product.image_url, class: "img-responsive") %> </div>
+        
 
         
         <div class="field">
-          <strong>Description:</strong>
-          <%= @product.description %>
+          <strong>Customer:</strong>
+          <%= @orders.user_id %>
         </div>
 
         <div class="field">
-          <strong>Image url:</strong>
-          <%= @product.image_url %>
+          <strong>Product ID:</strong>
+          <%= @orders.product_id %>
         </div>
         <div class="field">
-          <strong>Colour:</strong>
-          <%= @product.colour %>
+          <strong>Total #:</strong>
+          <%= @orders.total %>
         </div>
-        <div class="field">
-          <strong>Price:</strong>
-          $<%= @product.price %>
-        </div>
-
+        
            
     </div>
 

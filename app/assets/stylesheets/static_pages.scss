@@ -140,8 +140,8 @@ p  {
     border-radius: 25px;
     border: 2px solid blue;
     padding: 20px; 
-    width: 300px;
-    height: 450px; 
+    height: 70%;
+	width: 70%;
     margin-top: 40px;
     margin-left:  auto;
     margin-right: auto;
@@ -149,16 +149,22 @@ p  {
 }
 
 .showphoto {
-	height: 200px;
-	width: 250px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-
-
+	height: 60%;
+	width: 60%;
+	margin-top: 20px;
+	 
+    margin-left:  auto;
+    margin-right: 70px;
 	}
 
- 
+ .showtext {
+    height: 650px;
+	width: 100%;
+    margin-top: 30px;
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: left;
+}
 
 
 
