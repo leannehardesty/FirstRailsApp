@@ -16,9 +16,12 @@ class ProductsController < ApplicationController
   # GET /products/1
   # GET /products/1.json
   def show
-      @comments = @product.comments.order("created_at DESC")
-      # Post.paginate(:page => params[:page], :per_page => 2)
-      # @posts = Post.paginate(:page => params[:page])
+      #@comments = @product.comments.order("created_at DESC")
+      #Post.paginate(:page => params[:page], :per_page => 2)
+      #@comments = Comment.paginate(:page => params[:page])
+      #Comment.paginate(:page => params[:page], :per_page => 10)
+       ## @comments = Comment.paginate(:page => params[:page])
+      @comments = @product.comments.order("created_at DESC").paginate(:page => params[:page], :per_page => 2)
   end
 
   # GET /products/new
