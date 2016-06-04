@@ -38,13 +38,12 @@
           <span class="glyphicon glyphicon-comment"></span> 
           <strong>Average Rating:</strong>
           <div class="rated" data-score="<%= @product.average_rating %>"> </div>
-          
-          <div>
-            <p>
+             
+              <%= render 'comments' %>
+              <br>
+            
               <%= render 'new_comment' %>
-            </p>
-          </div>
-
+             
         </div>
                  
       </div>

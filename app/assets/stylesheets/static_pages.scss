@@ -158,7 +158,7 @@ p  {
 	}
 
  .showtext {
-    height: 650px;
+    height: 775px;
 	width: 100%;
     margin-top: 30px;
     margin-left:  auto;
@@ -315,13 +315,17 @@ table  {
     text-align: left;
 }
 
-.addreview h2 {
+.commentsreview h4 {
 	margin-left:  auto;
     margin-right: auto;
     text-align: left;
+	color: black;
+	font-family: Iowan Old Style;
+	font-style: normal;
+	font-weight: bold;
 }
 
-.addreview p {
+.commentsreview p {
 	margin-left:  auto;
     margin-right: auto;
     text-align: left;
