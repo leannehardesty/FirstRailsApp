@@ -19,7 +19,11 @@ class CommentsController < ApplicationController
 	end
 
 
-	def destory
+	def destroy
+		@comment = Comment.find(params[:id])
+  		product = @comment.product
+  		@comment.destroy
+  		redirect_to product
 	end
 
 

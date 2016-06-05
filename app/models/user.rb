@@ -4,4 +4,13 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 	has_many :orders
+
+
+end
+
+
+class AddAdminFlagToUsers < ActiveRecord::Migration
+  	def change
+    	add_column :users, :admin, :boolean, default: false, null: false
+  	end
 end
