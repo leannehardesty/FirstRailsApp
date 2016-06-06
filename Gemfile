@@ -36,6 +36,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'sqlite3'
+  gem 'rspec-rails', '~> 3.4'
 end
 
 group :development do
@@ -54,3 +55,8 @@ end
 gem 'devise'
 gem 'cancancan'
 gem 'will_paginate', '~> 3.1.0'
+
+# to run RSpec against master branch, need to include dependent RSpec repos
+#%w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
+#  gem lib, :git => "https://github.com/rspec/#{lib}.git", :branch => 'master'
+#end
