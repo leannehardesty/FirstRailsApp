@@ -4,8 +4,10 @@ require 'rails_helper'
 describe UsersController, :type => :controller do
 
     before do
-    	@user = User.create!(email: "lhardesty11@gmail.com", password: "lobster")
-    	@user2 = User.create!(email: "brian@gmail.com", password: "lobster")
+    	@user = FactoryGirl.build(:user)
+    	@user2 = FactoryGirl.build(:user)
+    	#@user = User.create!(email: "lhardesty11@gmail.com", password: "lobster")
+    	#@user2 = User.create!(email: "brian@gmail.com", password: "lobster")
     	
   	end
 
