@@ -38,6 +38,10 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '~> 3.4'
   gem 'factory_girl_rails', '~> 4.0'
+  gem 'guard'
+  gem 'guard-rspec', require: false
+  gem 'spork-rails'
+  gem 'guard-spork'
 
 end
 
@@ -57,6 +61,7 @@ end
 gem 'devise'
 gem 'cancancan'
 gem 'will_paginate', '~> 3.1.0'
+
 # to run RSpec against master branch, need to include dependent RSpec repos
 #%w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
 #  gem lib, :git => "https://github.com/rspec/#{lib}.git", :branch => 'master'
