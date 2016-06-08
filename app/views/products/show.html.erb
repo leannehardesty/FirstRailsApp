@@ -46,6 +46,11 @@
                
              <%= will_paginate @comments %>
         </div>
+
+
+        <%= form_tag "/payments/create" do %>
+          <%= render partial: "shared/stripe_checkout_button" %>
+        <% end %>
                  
       </div>
   </div>
