@@ -2,8 +2,6 @@
 
 <p id="notice"><%= notice %></p>
 
- 
-
 
 
 <div class="col-sm-6"><div class="showphoto"> <%= image_tag(@product.image_url, class: "img-responsive") %> </div>
@@ -33,6 +31,7 @@
         <div class="field">
           <strong>Price:</strong>
           $<%= @product.price %>
+          
         </div>
         <div class="field">
           <span class="glyphicon glyphicon-comment"></span> 
@@ -41,6 +40,8 @@
 
           <%= form_tag "/payments/create" do %>
             <%= render partial: "shared/stripe_checkout_button" %>
+            <%= hidden_field_tag(:product_id, @product.id) %>
+            <%= hidden_field_tag(:product_price, @product.price) %>
           <% end %>
 
           <br>  

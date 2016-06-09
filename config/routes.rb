@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   end
   resources :users
   resources :orders, only: [:index, :show, :create, :destroy]
+  resources :payments
 
   get 'static_pages/about'
 
@@ -18,6 +19,8 @@ Rails.application.routes.draw do
   post 'static_pages/thank_you'
 
   get 'users/index'
+
+  post 'payments/create'
 
   # get orders_path orders#index
   # post orders_path orders#create
