@@ -7,9 +7,9 @@
   data-name="<%= @product.name %>"
   data-description="<%= @product.description %>"
   data-amount="<%= @product.price * 100 %>" 
-  hidden-field="<%= hidden_field_tag(:product_id, @product.id) %>"
+  
   >
-	
+	<%= hidden_field_tag(:product_id, @product.id) %> 
 </script>
 
 
