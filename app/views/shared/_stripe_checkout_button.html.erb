@@ -1,10 +1,18 @@
 
-
+<br>
 <script
   src="https://checkout.stripe.com/checkout.js" class="stripe-button"
   data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
-    
-  :name="Demo Site"
-  :description="Racing Bike ($2000.00)"
-  :price=2000>
+  data-image="<%= @product.image_url %>"
+  data-name="<%= @product.name %>"
+  data-description="<%= @product.description %>"
+  data-amount="<%= @product.price * 100 %>" 
+  hidden-field="<%= hidden_field_tag(:product_id, @product.id) %>"
+  >
+	
 </script>
+
+
+
+
+
