@@ -27,7 +27,7 @@ class ProductsController < ApplicationController
 
   # GET /products/new
   def new
-byebug 
+#byebug 
     @product = Product.new
   end
 
@@ -57,7 +57,7 @@ byebug
   # PATCH/PUT /products/1.json
   def update
 
-byebug 
+#byebug 
 
     respond_to do |format|
       if @product.update(product_params)
