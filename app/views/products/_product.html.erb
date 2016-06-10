@@ -10,6 +10,9 @@
            
         <h2><%= product.name %></h2>
         <p><%= product.description %></p>
+
+
+    <% logger.debug "Product (inside _product.html): #{product.name}"%>    
         
         <div class="produnderscore"> </div><br>
         <strong>$<%= product.price %></strong> 

@@ -5,6 +5,7 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = Product.all
+    logger.debug "@products before conditional: #{@products}"
     if params[:q]
        search_term = params[:q]
        @products = Product.where("name LIKE ?", "%#{search_term}%")
@@ -26,6 +27,7 @@ class ProductsController < ApplicationController
 
   # GET /products/new
   def new
+byebug 
     @product = Product.new
   end
 
@@ -54,6 +56,9 @@ class ProductsController < ApplicationController
   # PATCH/PUT /products/1
   # PATCH/PUT /products/1.json
   def update
+
+byebug 
+
     respond_to do |format|
       if @product.update(product_params)
         format.html { redirect_to @product, notice: 'Product was successfully updated.' }

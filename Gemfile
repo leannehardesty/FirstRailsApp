@@ -62,6 +62,7 @@ gem 'devise'
 gem 'cancancan'
 gem 'will_paginate', '~> 3.1.0'
 gem 'stripe'
+gem 'byebug'
 
 # to run RSpec against master branch, need to include dependent RSpec repos
 #%w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
