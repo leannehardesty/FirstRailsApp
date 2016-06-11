@@ -10,6 +10,15 @@ $(document).on('ready page:load', function(){
         return $(this).attr('data-score');
       }
     });
+
+    $('.img_zoom').elevateZoom({
+            zoomType: "inner",
+            cursor: "crosshair",
+            zoomWindowFadeIn: 500,
+            zoomWindowFadeOut: 750
+        }); 
+
+
 });
 
 

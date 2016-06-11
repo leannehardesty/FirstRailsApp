@@ -34,7 +34,7 @@ module Nameofapp
     # Provide a secure connection over SSL  
     config.force_ssl = true
     # protect against cross site request forgery (CSRF) requests 
-    protect_from_forgery with: :exception
+    #protect_from_forgery with: :exception
 
   end
 end

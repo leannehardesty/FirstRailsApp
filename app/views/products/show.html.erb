@@ -4,8 +4,11 @@
 
 
 
-<div class="col-sm-6"><div class="showphoto"> <%= image_tag(@product.image_url, class: "img-responsive") %> </div>
+<div class="col-sm-6"><div class="showphoto"> 
+    <%= image_tag(@product.image_url, width: "500", class: "img-responsive", class: "img_zoom", data_zoom_image: "@product.image_url") %> 
+</div>
 
+  
   
 </div>
  <div class="col-sm-6">
@@ -23,6 +26,19 @@
         <div class="field">
           <strong>Image url:</strong>
           <%= @product.image_url %>
+
+          <!--
+          <script>
+            $('.img_zoom').elevateZoom({
+            zoomType: "inner",
+            cursor: "crosshair",
+            zoomWindowFadeIn: 500,
+            zoomWindowFadeOut: 750
+            }); 
+          </script>
+          -->
+
+
         </div>
         <div class="field">
           <strong>Colour:</strong>
