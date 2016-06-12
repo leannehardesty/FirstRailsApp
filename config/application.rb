@@ -32,7 +32,7 @@ module Nameofapp
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
     # Provide a secure connection over SSL  
-    config.force_ssl = true
+    #config.force_ssl = true
     # protect against cross site request forgery (CSRF) requests 
     #protect_from_forgery with: :exception
 
