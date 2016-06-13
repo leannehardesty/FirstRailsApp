@@ -64,6 +64,7 @@ gem 'will_paginate', '~> 3.1.0'
 gem 'stripe'
 #gem 'byebug'
 gem "brakeman", :require => false
+gem 'angularjs-rails'
 
 # to run RSpec against master branch, need to include dependent RSpec repos
 #%w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|

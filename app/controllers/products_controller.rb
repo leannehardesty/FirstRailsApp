@@ -1,4 +1,5 @@
 class ProductsController < ApplicationController
+  respond_to :json, :html
   before_action :set_product, only: [:show, :edit, :update, :destroy]
 
   # GET /products
@@ -12,6 +13,7 @@ class ProductsController < ApplicationController
     else
        @products = Product.all
     end
+    respond_with @products
   end
 
   # GET /products/1
