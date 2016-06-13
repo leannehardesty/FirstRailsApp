@@ -65,6 +65,8 @@ gem 'stripe'
 #gem 'byebug'
 gem "brakeman", :require => false
 gem 'angularjs-rails'
+gem 'dalli'
+
 
 # to run RSpec against master branch, need to include dependent RSpec repos
 #%w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|

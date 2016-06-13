@@ -2,9 +2,9 @@
 
 
 
+<% cache product do %>
 
-
-<div class="col-sm-12 col-md-4">
+  <div class="col-sm-12 col-md-4">
     <div class="prodborder">
         <div class="bikephoto"> <%= image_tag(product.image_url, class: "img-responsive") %> </div>
            
@@ -12,11 +12,12 @@
         <p><%= product.description %></p>
 
 
-    <% logger.debug "Product (inside _product.html): #{product.name}"%>    
+        <% logger.debug "Product (inside _product.html): #{product.name}"%>    
         
         <div class="produnderscore"> </div><br>
         <strong>$<%= product.price %></strong> 
         <div class="showeditdestroy"> <%= link_to 'Show', product %>  |  <%= link_to 'Edit', edit_product_path(product) %> | <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %> </div>
 
     </div>
-</div>
+  </div>
+<% end %>

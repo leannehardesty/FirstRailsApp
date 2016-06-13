@@ -2,7 +2,8 @@
 
 <div class="commentsreview cmmtrev">
     <% @comments.each do |comment| %>
-         
+        <% cache @comment do %>
+
             <hr>
             <p>"<%= comment.body %>"</p>
             
@@ -15,10 +16,8 @@
             <p><%= "Rating: #{comment.rating}/5" %></p> 
             <div class="rated" data-score="<%= comment.rating %>"></div>
             <br>           
-                 
+        <% end %>  
     <% end %>
-
-     
 
 </div>
 
