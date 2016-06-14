@@ -36,6 +36,9 @@ module Nameofapp
     # protect against cross site request forgery (CSRF) requests 
     #protect_from_forgery with: :exception
 
+
+    config.cache_store = :redis_store, 'redis://localhost:6379/0/cache'
+
   end
 end
 
