@@ -23,7 +23,11 @@ class StaticPagesController < ApplicationController
   		@message = params[:message]
   		UserMailer.contact_form(@email, @name, @message).deliver_now
 	end
-   
+
+
+
+  
+  
 
 end
 
