@@ -6,7 +6,7 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = Product.all
-    logger.debug "@products before conditional: #{@products}"
+    #logger.debug "@products before conditional: #{@products}"
     if params[:q]
        search_term = params[:q]
        @products = Product.where("name LIKE ?", "%#{search_term}%")
@@ -15,6 +15,8 @@ class ProductsController < ApplicationController
     end
     respond_with @products
   end
+
+
 
   # GET /products/1
   # GET /products/1.json

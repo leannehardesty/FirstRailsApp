@@ -84,6 +84,17 @@
               <%= submit_tag "Search", class:"btn btn-primary" %>
               <% end %> 
         </div>
+
+
+
+        <div class="form-inline searchform"> <%= form_tag("/products", method: "get") do %>
+              <%= text_field_tag(:q) %> 
+               
+              <%= submit_tag "Search", class:"btn btn-primary" %>
+              <% end %> 
+        </div>
+
+
       </div> <!-- end nav -->
     </div> <!--end nav container -->
   </nav> <!-- end navbar-->
