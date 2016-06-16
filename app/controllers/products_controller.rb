@@ -12,7 +12,7 @@ class ProductsController < ApplicationController
           @products = Product.where("name LIKE ?", "%#{search_term}%")
         else
           #for Postgres / Production (Heroku)
-          @products = Product.where("name ilike ?", "%#{search_term}%")
+          @products = Product.where("name ilike ?", '%#{search_term}%')
         end
 
     else
