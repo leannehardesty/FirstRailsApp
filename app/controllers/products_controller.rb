@@ -9,7 +9,11 @@ class ProductsController < ApplicationController
     #logger.debug "@products before conditional: #{@products}"
     
        search_term = params[:q]
-       @products = Product.where("LOWER(name) LIKE ?", "%#{search_term.downcase}%")
+        wildcard_search = "%#{search_term}%"
+
+        @products = Product.where("name ILIKE ?", wildcard_search)
+
+       #@products = Product.where("LOWER(name) LIKE ?", "%#{search_term.downcase}%")
 
        #@products = Product.where("name = ?", search_term)
        #@products = Product.where("name LIKE ?", "%#{search_term}%") 
@@ -24,7 +28,13 @@ class ProductsController < ApplicationController
 def self.search(client, date_start, date_end)
        joins(:customer).where("LOWER(customers.name) LIKE ? AND date >= ? AND date <= ?", "%#{client}%", date_start, date_end)
 end
+def self.search(search, page = 1 )
+  wildcard_search = "%#{search}%"
 
+  where("name ILIKE :search OR postal_code LIKE :search", search: wildcard_search)
+    .page(page)
+    .per_page(5)
+end
 
 
 
