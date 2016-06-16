@@ -8,12 +8,18 @@ class ProductsController < ApplicationController
     if params[:q]
       search_term = params[:q]
 
-        if Rails.env.development?
-          @products = Product.where("name LIKE ?", "%#{search_term}%")
-        else
+       
+      puts "search for:  #{search_term}"
+
+
+        #if Rails.env.development?
+          #@products = Product.where("name LIKE ?", "%#{search_term}%")
+        #else
           #for Postgres / Production (Heroku)
-          @products = Product.where("name ilike ?", '%#{search_term}%')
-        end
+          #@colors = Color.where("lower(name) like ?", "%#{params[:q].downcase}%")
+           
+          @products = Product.where("lower(name) like ?", "%#{params[:q].downcase}%")
+        #end
 
     else
 
