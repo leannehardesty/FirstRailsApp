@@ -7,16 +7,14 @@ class ProductsController < ApplicationController
   def index
     @products = Product.all
     #logger.debug "@products before conditional: #{@products}"
-    if params[:q]
+    
        search_term = params[:q]
        @products = Product.where("LOWER(name) LIKE ?", "%#{search_term.downcase}%")
 
        #@products = Product.where("name = ?", search_term)
        #@products = Product.where("name LIKE ?", "%#{search_term}%") 
 
-    else
-       @products = Product.all
-    end
+    
     respond_with @products
   end
 
