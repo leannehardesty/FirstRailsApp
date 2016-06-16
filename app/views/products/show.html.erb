@@ -4,13 +4,14 @@
 
 
 
-<div class="col-sm-6"><div class="showphoto"> 
-    <%= image_tag(@product.image_url, width: "500", class: "img-responsive", class: "img_zoom", data_zoom_image: "@product.image_url") %> 
+<div class="col-sm-6">
+    <div class="showphoto img-responsive pull-right"> 
+      <%= image_tag(@product.image_url, width: "390", class: "img-responsive", class: "img_zoom", data_zoom_image: "@product.image_url") %> 
+
+    </div>
 </div>
 
-  
-  
-</div>
+
  <div class="col-sm-6">
      <div class="showtext">
 
@@ -28,8 +29,6 @@
         <div class="field">
           <strong>Image url:</strong>
           <%= @product.image_url %>
-
-          
 
         </div>
         <div class="field">
@@ -57,35 +56,32 @@
 
           <br>  
 
-
-
           <% cache(@cache_key_for_comments) do %>
              <%= render 'comments' %>
           <% end %>
           
-            
           <%= render 'new_comment' %>
-               
-          <%= will_paginate @comments %>
+     
         </div>
+
       <% end %>
-          
-                 
+                       
       </div>
-
-
-
-
+      <%= will_paginate @comments %>
   </div>
- 
- 
 
 
-<br>
+<br><br><br>
 <div class="showbackeditlink">
 	  <p>
+
 	    <%= link_to 'Edit', edit_product_path(@product) %> |
 		<%= link_to 'Back', products_path %>
 	  </p>
 </div>
+
+
+
+
+
 

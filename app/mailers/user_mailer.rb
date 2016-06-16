@@ -10,4 +10,12 @@ class UserMailer < ApplicationMailer
   	end
 
 
+  	def contact_form_signup(email)
+  		#@message = message
+    	mail(:from => 'lhardesty@hotmail.com',
+       	     :to => email,
+       	     :subject => "Your account with Bike the City")
+  	end
+
+
 end

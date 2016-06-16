@@ -12,37 +12,40 @@
   <% end %>
 
 
-  <div class="newborder">
+  <div class="row">
+    <div class="signin">
+
     <div class="field">
       <%= f.label :name %><br>
-      <%= f.text_field :name %>
+      <%= f.text_field :name, required: true, class: 'form-control', value: @product.name %>  
     </div>
     <div class="field">
       <%= f.label :description %><br>
-      <%= f.text_area :description %>
+      <%= f.text_area :description, required: true, class: 'form-control', value: @product.description %>
     </div>
     <div class="field">
       <%= f.label :image_url %><br>
-      <%= f.text_field :image_url %>
+      <%= f.text_field :image_url, required: true, class: 'form-control', value: @product.image_url %>
     </div>
     <div class="field">
       <%= f.label :colour %><br>
-      <%= f.text_field :colour %>
+      <%= f.text_field :colour, required: true, class: 'form-control', value: @product.colour %>
     </div>
 
-
     <div class="field">
-      <%= f.label :price %><br>
-      <%= f.text_area :price %>
+      <%= f.label :price %>($)<br>
+      <%= f.text_area :price, required: true, class: 'form-control', value: @product.price %>
     </div>
 
     <div class="actions">
-      <%= f.submit %>
+       
+      <%= f.submit "Update Product", class:"btn btn-primary" %>
     </div>
 
+   </div>
   </div>
 <% end %>
-
+<br><br><br>
 
 
 

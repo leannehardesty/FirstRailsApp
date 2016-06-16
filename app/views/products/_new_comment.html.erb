@@ -1,28 +1,28 @@
 
+<div class="col-sm-6">
+  <div class="commentsreview row">
+  <% if signed_in? %>
+    	<br>
+      <h4>Add a review:</h4>
+      <%= form_for([@product, @product.comments.build], remote: true) do |f| %>
+        <p>
+          
+          <%= f.text_field :body, autocomplete: "off", autofocus: true, "size" => 40, class: "form-control", placeholder: "Add comments here"  %>
+        </p>
+        <p>
+          <%= f.label :rating %>:
+           
+          <div class="rating"></div>
+        </p> 
 
-<div class="commentsreview">
-<% if signed_in? %>
-	<br>
-  <h4>Add a review:</h4>
-  <%= form_for([@product, @product.comments.build], remote: true) do |f| %>
-    <p>
-      <%= f.label :body, "Comments" %>:<br>
-      <%= f.text_area :body %>
-    </p>
-    <p>
-      <%= f.label :rating %>:
-      <!-- <%= f.text_field :rating, class: "rating" %> -->
-      <div class="rating"></div>
-    </p> 
-
-    <br>
-    <p>
-      <%= f.submit 'Submit' %>
-    </p>
+        <br>
+        <p>
+          <%= f.submit "Submit", class:"btn btn-primary" %>
+        </p>
 
 
-
+      <% end %>
   <% end %>
-<% end %>
 
+  </div>
 </div>

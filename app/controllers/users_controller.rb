@@ -42,6 +42,25 @@ class UsersController < ApplicationController
     end
   end
 
+
+  def signup_thank_you
+       
+      @email = params[:email]
+       
+      UserMailer.contact_form_signup(@email).deliver_now
+  end
+
+
+
+
+
+
+
+
+
+
+
+
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
   def update

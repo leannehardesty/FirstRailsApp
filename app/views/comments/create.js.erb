@@ -4,8 +4,9 @@
 
 $("#new_comment").html("Thank you for your review!");
 
-
+ 
 $('.cmmtrev').prepend("<%= j render @comment %>");
+
 
  
   $('.rating').raty( { path: '/assets', scoreName: 'comment[rating]' });
