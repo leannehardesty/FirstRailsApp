@@ -9,7 +9,7 @@ class ProductsController < ApplicationController
     #logger.debug "@products before conditional: #{@products}"
     if params[:q]
        search_term = params[:q]
-       @products = Product.where("LOWER(name) LIKE ?", "%#{search_term}%")
+       @products = Product.where("LOWER(name) LIKE ?", "%#{search_term.downcase}%")
 
        #@products = Product.where("name = ?", search_term)
        #@products = Product.where("name LIKE ?", "%#{search_term}%") 
