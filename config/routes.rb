@@ -22,7 +22,7 @@ Rails.application.routes.draw do
 
   #post 'devise/registrations/new_signup'
 
-  post 'users/new_signup'
+  post 'devise/registrations/new_signup'
 
   get 'users/index'
 
