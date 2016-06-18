@@ -26,7 +26,7 @@ app.factory('models', ['$resource', function($resource){
 
 
 
-app.controller('OrdersCtrl', ['$scope', function($scope, models){
+app.controller('OrdersCtrl', ['$scope', 'models', function($scope, models){
   // Here will be all code belonging to this controller
 
 
