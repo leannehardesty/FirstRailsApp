@@ -44,7 +44,7 @@
           <span class="glyphicon glyphicon-comment"></span> 
           <strong>Average Rating:</strong>
           <div class="rated" data-score="<%= @product.average_rating %>"> </div>
-
+            
 <!-- <% logger.debug "Product (inside show): #{@product.name}"%> -->
 
 
@@ -53,16 +53,21 @@
             <%= hidden_field_tag(:product_id, @product.id) %>
             <%= hidden_field_tag(:product_price, @product.price) %>
           <% end %>
+        </div>
 
           <br>  
 
-          <% cache(@cache_key_for_comments) do %>
-             <%= render 'comments' %>
-          <% end %>
           
-          <%= render 'new_comment' %>
+            <% cache(@cache_key_for_comments) do %>
+               <%= render 'comments' %>
+            <% end %>
+          
+            <%= render 'new_comment' %>
+              
+           
+           
      
-        </div>
+        
 
       <% end %>
                        

@@ -5,7 +5,7 @@
 $("#new_comment").html("Thank you for your review!");
 
  
-$('.cmmtrev').prepend("<%= j render @comment %>");
+$('#showcomments').prepend("<%= j render @comment %>");
 
 
  
@@ -17,6 +17,16 @@ $('.cmmtrev').prepend("<%= j render @comment %>");
       }
     });
 
+  $('.rating').raty( { path: '/assets', scoreName: '@product[average_rating]' });
+    $('.rated').raty({ path: '/assets',
+      readOnly: true,
+      score: function() {
+        return $(this).attr('data-score');
+      }
+    });
+
+
+     
 
 
 

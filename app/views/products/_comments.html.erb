@@ -1,26 +1,35 @@
 
 
-<div class="commentsreview cmmtrev row">
+
+
+  <div id="showcomments">
+    
     <% @comments.each do |comment| %>
         <% cache @comment do %>
-
-            <hr>
-            <p>"<%= comment.body %>"</p>
+             <hr>
+            <div class="field">"<%= comment.body %>"</div>
             
-            <p> 
-             <%= comment.user.first_name %> <small><em><%= "#{time_ago_in_words(comment.created_at)} ago" %></em></small>        
-             <% if signed_in? && current_user.admin? %>
-               <%= link_to ('<span class="glyphicon glyphicon-remove"></span>').html_safe, product_comment_path(@product, comment), method: :delete, data: { confirm: 'Are you sure?' } %>
-             <% end %>
-            </p>       
-            <p><%= "Rating: #{comment.rating}/5" %></p> 
-            <div class="rated" data-score="<%= comment.rating %>"></div>
+            <div class="field">
+               
+                <%= comment.user.first_name %> <small><em><%= "#{time_ago_in_words(comment.created_at)} ago" %></em></small>        
+               
+                <% if signed_in? && current_user.admin? %>
+                 <%= link_to ('<span class="glyphicon glyphicon-remove"></span>').html_safe, product_comment_path(@product, comment), method: :delete, data: { confirm: 'Are you sure?' } %>
+                <% end %>
+   
+                   
+            </div>  
+            <div class="field"><%= "Rating: #{comment.rating}/5" %> </div>
+            <div class="field"><div class="rated" data-score="<%= comment.rating %>"></div></div>
+
+            
             
             <br>           
         <% end %>  
     <% end %>
-
-</div>
+ 
+   
+ </div>
 
 
   
