@@ -5,81 +5,37 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   
-  #def index
-
-    #if params[:q]
-        #search_term = params[:q]
-          
-         #puts "byebug after search_term=params[:q]"
-        #byebug
-
-          #if Rails.env.production?  
-
-              #@products = Product.where("name ILIKE ?", "%#{search_term}%")
-              #puts "byebug after @products assignation"
-              #byebug
-
-
-
-
-          #else
-              #@products = Product.where("name LIKE ?", "%#{search_term}%")
-
-          #end
-
-    #else
-
-        #@products = Product.all
-    #end
-
-  #end
+ 
      
    
+#def index
+  #if params[:q]
+    #search_term = params[:q]
+
+
+    #if Rails.env.production?
+        #@products = Product.where("name ILIKE ?", "%#{search_term}%")
+    #else
+        #@products = Product.where("name LIKE ?", "%#{search_term}%")
+    #end
+
+
+  #else
+    #@products = Product.all
+  #end
+
+  
+#end
+  
 def index
   if params[:q]
     search_term = params[:q]
-
-
-    if Rails.env.production?
-        @products = Product.where("name ILIKE ?", "%#{search_term}%")
-    else
-        @products = Product.where("name LIKE ?", "%#{search_term}%")
-    end
-
-
+    @products = Product.where("name ILIKE ?", "%#{search_term}%")
   else
     @products = Product.all
   end
-
-  
 end
-  
 
-
-
-
-
-#if params[:q]
-      #search_term = params[:q]
-          #@products = Product.where("name ilike ?", "%#{search_term}%")
-          #@products = Product.where("lower(name) like ?", "%#{params[:q].downcase}%")
-
-        #if Rails.env.development?
-          #@products = Product.where("name LIKE ?", "%#{search_term}%")
-        #else
-          #for Postgres / Production (Heroku)
-          #@products = Product.where("name ilike ?", "%#{search_term}%")
-          #@products = Product.where("LOWER(name) LIKE ?", "%#{search_term.downcase}%")
-           
-          #@products = Product.where("lower(name) like ?", "%#{params[:q].downcase}%")
-          #@products = Product.where("lower(name) like ?", "lower(%#{search_term}%)")
-
-        #end
-
-    #else
-
-      #@products = Product.all
-    #end
 
 
     #logger.debug "@products before conditional: #{@products}"
