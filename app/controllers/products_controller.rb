@@ -26,7 +26,7 @@ class ProductsController < ApplicationController
       @products = Product.all
     end
 
-    respond_with @products
+    #respond_with @products
   end
 
 
