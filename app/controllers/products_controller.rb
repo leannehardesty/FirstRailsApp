@@ -5,37 +5,54 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   
-  def index
+  #def index
 
-    if params[:q]
-        search_term = params[:q]
+    #if params[:q]
+        #search_term = params[:q]
           
-         format.html { notice: 'byebug after search_term=params[:q]' }
-        byebug
+         #puts "byebug after search_term=params[:q]"
+        #byebug
 
-          if Rails.env.production?  
+          #if Rails.env.production?  
 
-              @products = Product.where("name ILIKE ?", "%#{search_term}%")
-              format.html { notice: 'byebug after @products assignation' }
-              byebug
-
-
+              #@products = Product.where("name ILIKE ?", "%#{search_term}%")
+              #puts "byebug after @products assignation"
+              #byebug
 
 
-          else
-              @products = Product.where("name LIKE ?", "%#{search_term}%")
 
-          end
 
-    else
+          #else
+              #@products = Product.where("name LIKE ?", "%#{search_term}%")
 
-        @products = Product.all
-    end
+          #end
 
-  end
+    #else
+
+        #@products = Product.all
+    #end
+
+  #end
      
    
+def index
+  if params[:q]
+    search_term = params[:q]
 
+
+    if Rails.env.production?
+        @products = Product.where("name ILIKE ?", "%#{search_term}%")
+    else
+        @products = Product.where("name LIKE ?", "%#{search_term}%")
+    end
+
+
+  else
+    @products = Product.all
+  end
+
+  
+end
   
 
 
