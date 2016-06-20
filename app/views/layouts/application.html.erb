@@ -83,8 +83,8 @@
         <div class="navbar-form navbar-left">
            <div class="form-group">
               <%= form_tag("/products", method: "get") do %>
-                <%= label_tag(:q, "") %>
-                <%= text_field_tag :q, nil, class: "form-control", placeholder: "Enter search criteria"  %>
+                <%= label_tag(:search, "") %>
+                <%= text_field_tag :search, nil, class: "form-control", placeholder: "Enter search criteria"  %>
                 <%= submit_tag "Search", class:"btn btn-primary" %>
               <% end %>
             </div>
