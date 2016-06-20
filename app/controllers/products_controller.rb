@@ -9,18 +9,21 @@ class ProductsController < ApplicationController
 
     if params[:q]
         search_term = params[:q]
-        puts "Search term #{search_term}"
+          
+         format.html { notice: 'byebug after search_term=params[:q]' }
+        byebug
 
-          if Rails.env.development?  
+          if Rails.env.production?  
 
-              @products = Product.where("name LIKE ?", "%#{search_term}%")
-          else
               @products = Product.where("name ILIKE ?", "%#{search_term}%")
+              format.html { notice: 'byebug after @products assignation' }
+              byebug
 
 
-              puts "@products in PRD #{@products} "
 
 
+          else
+              @products = Product.where("name LIKE ?", "%#{search_term}%")
 
           end
 
