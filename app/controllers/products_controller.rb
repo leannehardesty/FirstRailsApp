@@ -7,11 +7,11 @@ class ProductsController < ApplicationController
   def index
     if params[:q]
       search_term = params[:q]
+          @products = Product.where("name ilike ?", "%#{search_term}%")
 
-
-        if Rails.env.development?
-          @products = Product.where("name LIKE ?", "%#{search_term}%")
-        else
+        #if Rails.env.development?
+          #@products = Product.where("name LIKE ?", "%#{search_term}%")
+        #else
           #for Postgres / Production (Heroku)
           @products = Product.where("name ilike ?", "%#{search_term}%")
           #@products = Product.where("LOWER(name) LIKE ?", "%#{search_term.downcase}%")
@@ -19,7 +19,7 @@ class ProductsController < ApplicationController
           #@products = Product.where("lower(name) like ?", "%#{params[:q].downcase}%")
           #@products = Product.where("lower(name) like ?", "lower(%#{search_term}%)")
 
-        end
+        #end
 
     else
 
