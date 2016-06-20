@@ -21,7 +21,7 @@ class ProductsController < ApplicationController
     else
       @products = Product.all
     end
-    params[:q] = ""
+    
   end
 
 
