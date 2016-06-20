@@ -9,12 +9,18 @@ class ProductsController < ApplicationController
 
     if params[:q]
         search_term = params[:q]
+        puts "Search term #{search_term}"
 
           if Rails.env.development?  
 
               @products = Product.where("name LIKE ?", "%#{search_term}%")
           else
               @products = Product.where("name ILIKE ?", "%#{search_term}%")
+
+
+              puts "@products in PRD #{@products} "
+
+
 
           end
 
@@ -26,7 +32,15 @@ class ProductsController < ApplicationController
   end
      
    
+collection = [2, 7, 9]
 
+puts "iterating over a collection of #{collection.count} items"
+collection.each do |item|
+  puts "Item before increment: #{item}"
+  item.increment!
+  puts "Item after increment #{item}"
+end
+puts "done iterating!"
 
   
 
