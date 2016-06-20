@@ -79,14 +79,24 @@
             <% end %>
         </ul>
 
+
+<!-- 
         <div class="form-inline searchform"> <%= form_tag("/products", method: "get") do %>
               <%= text_field_tag :q, nil, class: "form-control", placeholder: "Enter search criteria"  %>
               
               <%= submit_tag "Search", class:"btn btn-primary" %>
 
               <% end %> 
-        </div>
+        </div> 
 
+        -->
+
+
+<%= form_tag("/products", method: "get") do %>
+  <%= label_tag(:q, "Search for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+<% end %>
 
          
 
