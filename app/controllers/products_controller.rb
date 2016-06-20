@@ -4,11 +4,29 @@ class ProductsController < ApplicationController
 
   # GET /products
   # GET /products.json
+  
   def index
     if params[:q]
       search_term = params[:q]
+      @products = Product.where("name ILIKE ?", "%#{search_term}%")
+    else
+      @products = Product.all
+    end
+  end
+     
+   
+
+
+  
+
+
+
+
+
+#if params[:q]
+      #search_term = params[:q]
           #@products = Product.where("name ilike ?", "%#{search_term}%")
-          @products = Product.where("lower(name) like ?", "%#{params[:q].downcase}%")
+          #@products = Product.where("lower(name) like ?", "%#{params[:q].downcase}%")
 
         #if Rails.env.development?
           #@products = Product.where("name LIKE ?", "%#{search_term}%")
@@ -22,14 +40,10 @@ class ProductsController < ApplicationController
 
         #end
 
-    else
+    #else
 
-      @products = Product.all
-    end
-
-    respond_with @products
-  end
-
+      #@products = Product.all
+    #end
 
 
     #logger.debug "@products before conditional: #{@products}"
