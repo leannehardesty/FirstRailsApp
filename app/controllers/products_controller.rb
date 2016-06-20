@@ -6,71 +6,36 @@ class ProductsController < ApplicationController
   # GET /products.json
   
  
-     
-   
-#def index
-  #if params[:q]
-    #search_term = params[:q]
-
-
-    
-
-
-  #else
-    #@products = Product.all
-  #end
-
-  
-#end
-  
-def index
-  if params[:q]
-    search_term = params[:q]
-
-    if Rails.env.production?
-        @products = Product.where("name ILIKE ?", "%#{search_term}%")
-    else
-        @products = Product.where("name LIKE ?", "%#{search_term}%")
-    end
  
-  else
-    @products = Product.all
+  
+  def index
+    if params[:q]
+      search_term = params[:q]
+
+      if Rails.env.production?
+          @products = Product.where("name ILIKE ?", "%#{search_term}%")
+      else
+          @products = Product.where("name LIKE ?", "%#{search_term}%")
+      end
+   
+    else
+      @products = Product.all
+    end
+    params[:q] = ""
   end
-end
 
 
 
-    #logger.debug "@products before conditional: #{@products}"
-    
-       #search_term = params[:q]
-       # wildcard_search = "%#{search_term}%"
-
-       # @products = Product.where("name ILIKE ?", wildcard_search)
-
-       #@products = Product.where("LOWER(name) LIKE ?", "%#{search_term.downcase}%")
-
-       #@products = Product.where("name = ?", search_term)
-       #@products = Product.where("name LIKE ?", "%#{search_term}%") 
-
-    
-
-
-
+  
 
   # GET /products/1
   # GET /products/1.json
   def show
-      #@comments = @product.comments.order("created_at DESC")
-      #Post.paginate(:page => params[:page], :per_page => 2)
-      #@comments = Comment.paginate(:page => params[:page])
-      #Comment.paginate(:page => params[:page], :per_page => 10)
-       ## @comments = Comment.paginate(:page => params[:page])
       @comments = @product.comments.order("created_at DESC").paginate(:page => params[:page], :per_page => 2)
   end
 
   # GET /products/new
   def new
-#byebug 
     @product = Product.new
   end
 
@@ -100,7 +65,7 @@ end
   # PATCH/PUT /products/1.json
   def update
 
-#byebug 
+
 
     respond_to do |format|
       if @product.update(product_params)
