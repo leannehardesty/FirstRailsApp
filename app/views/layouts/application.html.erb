@@ -34,19 +34,6 @@
 
 
 
-
-<!-- <p class="notice"><%= notice %></p>
-
-<p class="alert"><%= alert %></p>
- -->
-
-<!-- <p class="notice"><%= notice %></p> 
-
-<p class="alert"><%= alert %></p>
--->
-
-
-
 <!--navbar starts here-->
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 
@@ -80,19 +67,16 @@
         </ul>
 
   
-        <div class="navbar-form navbar-left">
-           <div class="form-group">
-              <%= form_tag("/products", method: "get") do %>
-                <%= label_tag(:search, "") %>
-                <%= text_field_tag :search, nil, class: "form-control", placeholder: "Enter search criteria"  %>
+         
+           
+            <%= form_tag("/products", method: "get", class: "navbar-form navbar-left") do %>
+              <div class="form-group">  
+                <%= text_field_tag(:q, nil, class: "form-control", placeholder: "Search") %>
+              </div>
                 <%= submit_tag "Search", class:"btn btn-primary" %>
-              <% end %>
-            </div>
-        </div>
-
-
-
+            <% end %>
             
+        
 
       </div> <!-- end nav -->
     </div> <!--end nav container -->

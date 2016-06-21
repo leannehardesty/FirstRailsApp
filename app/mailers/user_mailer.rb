@@ -11,12 +11,11 @@ class UserMailer < ApplicationMailer
   	end
 
 
-  	def new_form(email, name, message)
-  		@message = message
-    	mail(:from => email,
-       	     :to => 'lhardesty@hotmail.com',
-       	     :subject => "Your account with Bike the City is setup for:...")
-  	end
+  	def welcome(user)
+      @appname = "Bike Shop"
+      mail( :to => user.email,
+            :subject => "Welcome to #{@appname}!")
+    end
 
 
 end

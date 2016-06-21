@@ -9,8 +9,8 @@ class ProductsController < ApplicationController
  
   
   def index
-    if params[:search].present?
-      search_term = params[:search]
+    if params[:q]
+      search_term = params[:q]
 
       if Rails.env.production?
           @products = Product.where("name ILIKE ?", "%#{search_term}%")
@@ -21,11 +21,10 @@ class ProductsController < ApplicationController
     else
       @products = Product.all
     end
-
+    respond_with @products
   end
 
-
-
+  
   
 
   # GET /products/1
