@@ -5,7 +5,7 @@
   <div id="showcomments">
     
     <% @comments.each do |comment| %>
-        <% cache @comment do %>
+        
              <hr>
             <div class="field">"<%= comment.body %>"</div>
             
@@ -25,7 +25,7 @@
             
             
             <br>           
-        <% end %>  
+         
     <% end %>
  
    

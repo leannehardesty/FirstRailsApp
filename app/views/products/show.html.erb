@@ -45,7 +45,7 @@
           <strong>Average Rating:</strong>
           <div class="rated" data-score="<%= @product.average_rating %>"> </div>
             
-<!-- <% logger.debug "Product (inside show): #{@product.name}"%> -->
+ 
 
 
           <%= form_tag "/payments/create" do %>
@@ -58,9 +58,9 @@
           <br>  
 
           
-            <% cache(@cache_key_for_comments) do %>
-               <%= render 'comments' %>
-            <% end %>
+            
+            <%= render 'comments' %>
+            
           
             <%= render 'new_comment' %>
               
