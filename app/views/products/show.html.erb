@@ -15,7 +15,7 @@
  <div class="col-sm-6">
      <div class="showtext">
 
-      <% cache @product do %>
+       
         <div class="field">
           <strong>Name:</strong>
           <%= @product.name %>
@@ -62,8 +62,6 @@
         <%= render 'new_comment' %>
               
            
-
-      <% end %>
                        
       </div>
       <%= will_paginate @comments %>
