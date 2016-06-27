@@ -43,4 +43,12 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
   # This is for any dynamic links that show up inside emails from development
   # environment generate the right URLs.
+
+
+  config.active_record.auto_explain_threshold_in_seconds = 0.5
+  # detect slow queries, trigger an explanation ("explain") on the query.
+  # Look on rails development log for the 'db explain plan'; it's in the output
+  # as a warning.
+
+
 end
