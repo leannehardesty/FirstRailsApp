@@ -6,18 +6,16 @@ describe Product do
 
 
 	before do
-	  #@product = Product.create!(name: "race bike")
-	  @product = FactoryGirl.build(:product)
+	  @product = Product.create!(name: "race bike")
+	  #@product = FactoryGirl.build(:product)
 
 
-	  #@user = User.create(email: "lhardesty11@gmail.com", password: "lobster")
-	  @user = FactoryGirl.build(:user)
+	  @user = User.create(email: "lhardesty11@gmail.com", password: "lobster")
+	  #@user = FactoryGirl.build(:user)
 
 	  @product.comments.create!(rating: 1, user: @user, body: "Awful bike!")
 	  @product.comments.create!(rating: 3, user: @user, body: "Ok bike!")
 	  @product.comments.create!(rating: 5, user: @user, body: "Superb bike!")
-
-		 
 
 	end
 

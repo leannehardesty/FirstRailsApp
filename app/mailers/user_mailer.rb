@@ -12,9 +12,15 @@ class UserMailer < ApplicationMailer
 
 
   	def welcome(user)
-      @appname = "Bike Shop"
+      @appname = "Bike the City"
       mail( :to => user.email,
             :subject => "Welcome to #{@appname}!")
+    end
+
+    def purchase(user)
+      @appname = "Bike the City"
+      mail( :to => user.email,
+            :subject => "Thank you for your recent online purchase at #{@appname}!")
     end
 
 

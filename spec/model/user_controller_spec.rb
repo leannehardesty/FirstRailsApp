@@ -4,10 +4,10 @@ require 'rails_helper'
 describe UsersController, :type => :controller do
 
     before do
-    	@user = FactoryGirl.build(:user)
-    	@user2 = FactoryGirl.build(:user)
-    	#@user = User.create!(email: "lhardesty11@gmail.com", password: "lobster")
-    	#@user2 = User.create!(email: "brian@gmail.com", password: "lobster")
+    	#@user = FactoryGirl.build(:user)
+    	#@user2 = FactoryGirl.build(:user)
+    	@user = User.create!(email: "lhardesty11@gmail.com", password: "lobster")
+    	@user2 = User.create!(email: "brian@gmail.com", password: "lobster")
     	
   	end
 
@@ -31,14 +31,6 @@ describe UsersController, :type => :controller do
 				expect(response).to redirect_to(root_path)
 			end
  
-		
-
-			it "user tries to access another user's show page and it responds with an HTTP 401 unauthorized status code" do
-      			get :show, id: @user2.id
-      			expect(assigns(:user)).not_to eq @user
-      			expect(response).to have_http_status(401)
-    		end
-
 
 		end
 
@@ -57,4 +49,4 @@ end
 
 
   
- 
+ expect(stoplight.color).to eq("red").or eq("green").or eq("yellow")
