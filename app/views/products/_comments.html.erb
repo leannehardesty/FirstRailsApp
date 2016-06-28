@@ -6,7 +6,7 @@
     
     <% @comments.each do |comment| %>
         
-
+        <% cache do %>
              <hr>
             <div class="field">"<%= comment.body %>"</div>
             
@@ -26,11 +26,11 @@
             
             
             <br>           
-         
+        <% end %>
     <% end %>
  
    
  </div>
 
 
-  
+   
