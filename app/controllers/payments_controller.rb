@@ -1,5 +1,14 @@
 class PaymentsController < ApplicationController
 
+
+    
+   def index
+     # @products = Product.limit(3) 
+      #@products = Product.all
+   end
+
+
+
 	def create
 		@product = params[:product_id]
 		@price = params[:product_price]  
@@ -14,9 +23,7 @@ class PaymentsController < ApplicationController
 	      :description => params[:stripeEmail]
     		)
 
-
     	  #was the payment successful / conditional check
-
 
     	  if charge.paid
     	  	Order.create(
@@ -25,30 +32,19 @@ class PaymentsController < ApplicationController
     	  		:total => @price
     	  		)
 
-
           UserMailer.purchase(@user).deliver_now
-
-
-    	  end
+     	  end
        
-      
-
-
   		  rescue Stripe::CardError => e
 
     	  # The card has been declined
-  		  end
+  		end
 
-
-  		#redirect_to product_url(@product)  
-  		  
+  		#redirect_to product_url(@product)   		  
     	respond_to do |format|
       		format.html { redirect_to product_url(@product), notice: 'Thank you for your purchase.' }
       		format.json { head :no_content }
-    	end
-  		 
+    	end 		 
 	end
-
-
 
 end

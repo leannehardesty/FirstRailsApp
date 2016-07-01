@@ -45,7 +45,7 @@ Rails.application.configure do
   # environment generate the right URLs.
 
 
-  config.active_record.auto_explain_threshold_in_seconds = 0.5
+  # config.active_record.auto_explain_threshold_in_seconds = 0.5
   # detect slow queries, trigger an explanation ("explain") on the query.
   # Look on rails development log for the 'db explain plan'; it's in the output
   # as a warning.

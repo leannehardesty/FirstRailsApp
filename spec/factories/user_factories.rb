@@ -12,19 +12,19 @@ FactoryGirl.define do
 	factory :user do
 		sequence(:email) { |n| "user#{n}@example.com" }
 		sequence(:password) { |n| "4444#9999"}
-	    email
-	    password
+	    #email
+	    #password
 	    first_name "LeeLee"
-	    last_name "Hardesty"
+	    last_name "Beethal"
 	    admin false
   	end
 
   	factory :admin, class: User do
   		
-  		sequence(:email) { |n| "user#{n}@example.com" }
-  		sequence(:password) { |n| "4444#9999"}
-  		email  
-  		password  
+  		sequence(:email) { |n| "user#{n}@exadmin.com" }
+  		sequence(:password) { |n| "3333#9999"}
+  		#email
+	    #password 
   		admin true
   		first_name "Admin"
   		last_name "User"
@@ -32,3 +32,7 @@ FactoryGirl.define do
 	
 
 end
+
+
+
+ 

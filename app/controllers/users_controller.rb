@@ -43,8 +43,6 @@ class UsersController < ApplicationController
   end
 
 
-  
-
 
 
   # PATCH/PUT /users/1

@@ -8,9 +8,7 @@ describe Comment do
 	before do
 	   
 	  @product = Product.create!(name: "race bike")
-	   
-	  @user = User.create!(email: "lhardesty11@gmail.com", password: "lobster")
-
+	  @user = FactoryGirl.create(:user)
 	  @product.comments.create!(rating: 1, user: @user, body: "Awful bike!")
 	   
 	end

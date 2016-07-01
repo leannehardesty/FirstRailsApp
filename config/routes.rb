@@ -18,11 +18,8 @@ Rails.application.routes.draw do
 
   post 'static_pages/thank_you'
 
-  #post 'static_pages/new_signup'
-
-  #post 'devise/registrations/new_signup'
-
-  #post 'devise/registrations/new_signup'
+  
+  
 
   get 'users/index'
 
