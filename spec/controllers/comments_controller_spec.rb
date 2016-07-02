@@ -4,6 +4,8 @@ require 'rails_helper'
 
 describe CommentsController, :type => :controller do
 
+  
+
   context "GET product list with comments" do
     before do
     	@products = Product.all
@@ -19,7 +21,9 @@ describe CommentsController, :type => :controller do
       expect(response).to be_success
       expect(response).to have_http_status(200)
     end
-   end
+  end
+
+  
 
 
 
@@ -29,11 +33,20 @@ describe CommentsController, :type => :controller do
       @product = FactoryGirl.build(:product)
       @product.save
       @comment_attributes = FactoryGirl.attributes_for(:comment, :product_id => @product)
+      @comments = @product.comments
     end
 
-    it "should create a new comment" do
-      post :create, :product_id => @product.id.to_s, :comment => @comment_attributes
- 
+
+    context "with valid attributes" do
+      it "creates a new comment" do
+          post :create, :product_id => @product.id.to_s, :comment => @comment_attributes 
+    
+      end
+
+      it "redirects to that product and comment" do
+        post :create, :product_id => @product.id.to_s, :comment => @comment_attributes 
+        expect(response).to redirect_to Product.last
+      end
     end
 
   end
@@ -49,7 +62,7 @@ describe CommentsController, :type => :controller do
            
         end
 
-      it "should delete the comment" do
+      it "deletes the comment" do
           
           expect{delete :destroy, id: @comment, product_id: @product}.to change{@product.comments.count}.by(-1)  
           
