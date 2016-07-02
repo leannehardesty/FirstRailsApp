@@ -49,7 +49,7 @@ describe ProductsController, :type => :controller do
 
     describe "GET #New" do
   		before do
-            @product = FactoryGirl.build(:product)
+          @product = FactoryGirl.build(:product)
       		@product.save
       		@product_attributes = FactoryGirl.attributes_for(:product, :id => @product)
   		end
@@ -65,14 +65,14 @@ describe ProductsController, :type => :controller do
 
 	describe "GET #Edit" do
   		before do
-            @product = FactoryGirl.build(:product)
+          @product = FactoryGirl.build(:product)
       		@product.save
       		@product_attributes = FactoryGirl.attributes_for(:product, :id => @product)
   		end
 
   		it "edits the product" do
     		product_params = FactoryGirl.attributes_for(:product) 
-      		get :edit, :product => product_params, :id => @product.id.to_s
+      	get :edit, :product => product_params, :id => @product.id.to_s
     	end
   	end
 
@@ -84,7 +84,7 @@ describe ProductsController, :type => :controller do
 			@product_params = FactoryGirl.attributes_for(:product)
 		end
 
-	    it "creates product" do 
+	  it "creates product" do 
 	  		expect { post :create, :product => @product_params }.to change(Product, :count).by(1) 
 		end 
 
@@ -92,6 +92,13 @@ describe ProductsController, :type => :controller do
 	  		expect { post :create, :product => @product_params }.to change(Product, :count).by(1) 
 	  		expect(response).to redirect_to(:root)
 		end 
+
+    it "renders new template" do
+        product_params = FactoryGirl.attributes_for(:product) 
+        @product = FactoryGirl.build(:product)
+        get :new, :product => product_params, :id => @product.id.to_s
+        expect(response).to render_template(:new)
+    end
 	end
 
 
@@ -101,12 +108,23 @@ describe ProductsController, :type => :controller do
       		@product = FactoryGirl.build(:product)
       		@product.save
       		@product_attributes = FactoryGirl.attributes_for(:product, :id => @product)
+          @prodparams = nil
+
     	end
 
-    	it "updates the product" do
-    		product_params = FactoryGirl.attributes_for(:product)
-      		patch :edit, :product => product_params, :id => @product.id.to_s
+    	it "updates the product successfully" do
+          product_params = FactoryGirl.attributes_for(:product) 
+          get :update, :product => product_params, :id => @product.id.to_s
+          expect(response).to redirect_to @product
     	end
+
+
+      it "does not update the product successfully" do
+          
+          #expect(response).to render_template(:edit)
+      end
+
+
   	end
 
 
@@ -131,26 +149,7 @@ describe ProductsController, :type => :controller do
 
 
 
-  	describe "set product" do
-  		before do
-  		end
-
-  		it "id cannot be nil" do
-  		end
-  	end
-
-	describe "test product params" do
-  		before do
- 		end
-
-  		it "requires params to be present" do
-			expect(Product.new(:name => "Cool Bike", :description => "Azure")).to be_valid
-   		end
-
-		it "invalidates if required params are not present" do
-			expect(Product.new(:description => "Not azure")).not_to be_valid
-   		end
-  	end
+  
 end
 
 

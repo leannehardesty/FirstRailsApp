@@ -25,6 +25,7 @@ describe CommentsController, :type => :controller do
     	redirect_to @product
     	@user = FactoryGirl.create(:user)
       @admin = FactoryGirl.create(:admin)
+
      	sign_in @user
      end
 
@@ -39,22 +40,41 @@ describe CommentsController, :type => :controller do
   describe "POST 'create'" do
 
     before do
-      @product = FactoryGirl.build(:product)
+      @product = FactoryGirl.create(:product)
       @product.save
       @comment_attributes = FactoryGirl.attributes_for(:comment, :product_id => @product)
       @comments = @product.comments
+      @user = FactoryGirl.create(:user)
+      @comm = @product.comments.create!(rating: 1, user: @user, body: "Boca bike!")
+
     end
 
     context "with valid attributes" do
       it "creates a new comment" do
           post :create, :product_id => @product.id.to_s, :comment => @comment_attributes 
-    
       end
 
       it "redirects to that product and comment" do
         post :create, :product_id => @product.id.to_s, :comment => @comment_attributes 
         expect(response).to redirect_to Product.last
       end
+
+
+      it "renders show and creates the comment successfully" do
+          product_params = FactoryGirl.attributes_for(:product) 
+           
+          #get :show, :product_id => @product.id.to_s, :comment => @comment_attributes, :id => @comm 
+          post :create, :product_id => @product.id.to_s, :comment => @comment_attributes 
+          #expect(response).to render_template("show")
+          expect(response).to redirect_to(@product)
+      end
+
+
+      it "responds successfully with an HTTP 200 status code" do
+        expect(response).to be_success
+        expect(response).to have_http_status(200)
+      end
+
     end
 
   end
