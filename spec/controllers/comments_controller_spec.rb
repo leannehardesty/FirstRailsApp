@@ -4,7 +4,20 @@ require 'rails_helper'
 
 describe CommentsController, :type => :controller do
 
+  context "GET #index" do
+  end
+
+  context "GET #show" do
+  end
+ 
+  context "GET #new" do
+  end
+
+  context "GET #edit" do
+  end
   
+  context "PUT #update" do
+  end  
 
   context "GET product list with comments" do
     before do
@@ -13,8 +26,7 @@ describe CommentsController, :type => :controller do
     	@user = FactoryGirl.create(:user)
       @admin = FactoryGirl.create(:admin)
      	sign_in @user
-      #sign_in @admin
-    end
+     end
 
 
     it "responds successfully with an HTTP 200 status code" do
@@ -24,9 +36,6 @@ describe CommentsController, :type => :controller do
   end
 
   
-
-
-
   describe "POST 'create'" do
 
     before do
@@ -35,7 +44,6 @@ describe CommentsController, :type => :controller do
       @comment_attributes = FactoryGirl.attributes_for(:comment, :product_id => @product)
       @comments = @product.comments
     end
-
 
     context "with valid attributes" do
       it "creates a new comment" do
@@ -63,7 +71,6 @@ describe CommentsController, :type => :controller do
         end
 
       it "deletes the comment" do
-          
           expect{delete :destroy, id: @comment, product_id: @product}.to change{@product.comments.count}.by(-1)  
           
       end  
@@ -73,7 +80,7 @@ describe CommentsController, :type => :controller do
     context "comment params" do
 
       it "all comment params available" do
-        #I'm not sure how to test for params
+        # test for params
         #params.require(:comment).permit(:user_id, :body, :rating)
       end
     end
@@ -82,17 +89,14 @@ describe CommentsController, :type => :controller do
 
       it "search params " do
         #@comment = Comment.find(params[:id])
-        #I'm not sure how to test for params
+        # test for params
       end
     end
  
 
 end
 
-    #   expect{delete :destroy, id: @comment, product_id: @product}.to change{@product.comments.count}.by(-1)           
-
-    #   DELETE /products/:product_id/comments/:id(.:format)      comments#destroy
-
+     
 
  
 

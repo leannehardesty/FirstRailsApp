@@ -19,7 +19,7 @@ class UsersController < ApplicationController
 
   # GET /users/new
   def new
-    @user = User.new
+    
   end
 
   # GET /users/1/edit
@@ -41,9 +41,6 @@ class UsersController < ApplicationController
       end
     end
   end
-
-
-
 
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
@@ -79,4 +76,6 @@ class UsersController < ApplicationController
     def user_params
       params.require(:user).permit(:first_name, :last_name)
     end
+
+   
 end

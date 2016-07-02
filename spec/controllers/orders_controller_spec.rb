@@ -24,42 +24,56 @@ describe OrdersController, :type => :controller do
      
   end
 
+  context "GET #new" do
+  end
+
+  context "GET #edit" do
+  end
+  
+  context "PUT #update" do
+  end  
+
+   
+  context "GET #Show" do
+      before do               
+        @product = FactoryGirl.create(:product)
+        @order = FactoryGirl.create(:order)
+            
+        get :show, id: @order
+      end
+
+      it "renders the order template" do
+          expect(response).to render_template(:show)
+      end
+  end
 
 
-  describe "POST 'create'" do
-
-    before(:each) do
+  context "POST 'create'" do
+    before do
       @product = FactoryGirl.build(:product)
       @product.save
       @order_attributes = FactoryGirl.attributes_for(:order, :product_id => @product)
     end
 
-    it "should create a new comment" do
+    it "creates a new order" do
       post :create, :product_id => @product.id.to_s, :order => @order_attributes
     end
-
   end
-
 
 
   context "DELETE #destroy" do
         before(:each) do
           @product = FactoryGirl.build(:product)
-          #@product.save
           @order = FactoryGirl.build(:order)
           @order.save
-
         end
 
       it "should delete the order" do
           @product.orders << @order
           delete :destroy, id: @order.id
 
-          #expect{ delete :destroy, id: @order.id}.to change{@orders.count}.by(-1)
-          #expect{ delete :destroy, :product => product_params, :id => @product.id.to_s }.to change(Product, :count).by(-1)
       end  
     end
-
 end
 
 

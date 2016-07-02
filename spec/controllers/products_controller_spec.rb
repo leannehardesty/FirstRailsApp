@@ -25,10 +25,10 @@ describe ProductsController, :type => :controller do
   		before do
           @product = FactoryGirl.build(:product)
           @product.save         
-  		  get :show, id: @product   			 
+  		    get :show, id: @product   			 
   		end
 
-        it "renders the product template" do
+      it "renders the product template" do
 	        expect(response).to render_template("show")
 	    end
 
@@ -89,7 +89,6 @@ describe ProductsController, :type => :controller do
 		end 
 
 		it "redirects to the new product" do 
-	  		#post :create, :product => @product_params
 	  		expect { post :create, :product => @product_params }.to change(Product, :count).by(1) 
 	  		expect(response).to redirect_to(:root)
 		end 
@@ -106,7 +105,6 @@ describe ProductsController, :type => :controller do
 
     	it "updates the product" do
     		product_params = FactoryGirl.attributes_for(:product)
-      	
       		patch :edit, :product => product_params, :id => @product.id.to_s
     	end
   	end
@@ -135,17 +133,14 @@ describe ProductsController, :type => :controller do
 
   	describe "set product" do
   		before do
-  			
   		end
 
   		it "id cannot be nil" do
-  			
   		end
   	end
 
 	describe "test product params" do
   		before do
- 	  	  
  		end
 
   		it "requires params to be present" do
@@ -155,15 +150,7 @@ describe ProductsController, :type => :controller do
 		it "invalidates if required params are not present" do
 			expect(Product.new(:description => "Not azure")).not_to be_valid
    		end
-
-
-
   	end
-
-
- 
- 
-
 end
 
 

@@ -3,16 +3,22 @@ class PaymentsController < ApplicationController
 
     
    def index
-     # @products = Product.limit(3) 
-      #@products = Product.all
+   end
+
+   def show
+   end
+
+   def new
+   end
+
+   def edit
    end
 
 
-
 	def create
-		@product = params[:product_id]
-		@price = params[:product_price]  
-		@user = current_user
+		  @product = params[:product_id]
+		  @price = params[:product_price]  
+		  @user = current_user
   		token = params[:stripeToken]
   		# Create the charge on Stripe's servers - this will charge the user's card
   		begin
@@ -46,5 +52,11 @@ class PaymentsController < ApplicationController
       		format.json { head :no_content }
     	end 		 
 	end
+  
 
+  def update
+  end
+
+  def destroy
+  end
 end

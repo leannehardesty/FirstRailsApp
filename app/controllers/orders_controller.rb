@@ -21,6 +21,12 @@ class OrdersController < ApplicationController
   def new
   end
 
+  def edit
+  end
+
+  def update
+  end
+
   def create
     @order = Order.create(order_params)
     respond_with @order

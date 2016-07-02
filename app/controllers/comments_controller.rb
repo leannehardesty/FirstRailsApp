@@ -1,14 +1,29 @@
 class CommentsController < ApplicationController
 
  
+	def index
+	end
+
+	def show
+   	end
+
+   
+  	def new
+   	end
+
+   
+  	def edit
+  	end
+
+	def update
+  	end
+
 
 	def create
 		@product = Product.find(params[:product_id])
 	    @comment = @product.comments.new(comment_params)
 	    @comment.user = current_user
-	    #@comment.save
-	    #redirect_to product_path(@product)
-
+	   
 	    respond_to do |format|
 	      if @comment.save
 	        format.html { redirect_to @product, notice: 'Review was created successfully.' }
@@ -18,7 +33,6 @@ class CommentsController < ApplicationController
 	        format.html { redirect_to @product, alert: 'Review was not saved successfully.' }
 	        format.json { render json: @comment.errors, status: :unprocessable_entity }
 	      end
-	       
     	end    
 	end
 
@@ -31,8 +45,6 @@ class CommentsController < ApplicationController
 	end
 
 
-
-
 	private
 		def set_product
       		@comment = Comment.find(params[:id])
@@ -43,7 +55,6 @@ class CommentsController < ApplicationController
 			params.require(:comment).permit(:user_id, :body, :rating)
 		end
 
-	
 end
 
 
